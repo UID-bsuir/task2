@@ -6,7 +6,6 @@ insert_final_newline=true
 charset=utf-8
 
 
-[**/*.{.js,ts,jsx,css}]
+[**/*.{.js,ts,jsx,tsx,css}]
 indent_style=space
 indent_size=2
-

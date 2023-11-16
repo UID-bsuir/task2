@@ -9,16 +9,8 @@ import SingerPage from "./components/SingerPage/SingerPage.tsx";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/main" element={<MainPage />} />
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/:id" element={<SingerPage />} />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+    </>
   );
 }
 

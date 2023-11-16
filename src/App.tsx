@@ -6,6 +6,7 @@ import NotFoundPage from "./components/NotFoundPage/NotFoundPage.tsx";
 import SearchPage from "./components/SearchPage/SearchPage.tsx";
 import SingerPage from "./components/SingerPage/SingerPage.tsx";
 
+
 function App() {
   return (
     <Router>

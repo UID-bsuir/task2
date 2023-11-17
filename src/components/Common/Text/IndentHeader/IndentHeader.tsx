@@ -7,3 +7,5 @@ function IndentHeader(props: IIndentHeader) {
     <h3>{props.data}</h3>  
   );
 }
+
+export default IndentHeader;

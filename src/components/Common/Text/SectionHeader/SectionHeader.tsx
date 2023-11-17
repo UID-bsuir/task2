@@ -7,3 +7,5 @@ function SectionHeader(props: ISectionHeader) {
     <h1>{props.data}</h1>  
   );
 }
+
+export default SectionHeader;

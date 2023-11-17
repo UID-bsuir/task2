@@ -7,3 +7,5 @@ function ParagraphHeader(props: IParagraphHeader) {
     <h2>{props.data}</h2>  
   );
 }
+
+export default ParagraphHeader;

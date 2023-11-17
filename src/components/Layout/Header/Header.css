@@ -1,0 +1,35 @@
+.Top-H {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px;
+  background-color: #1a187c;
+  width: 1440px;
+}
+
+.Menu-H {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+
+
+}
+
+.Item-Top-H {
+  font-size: 18px;
+  line-height: 103.664%;
+  font-weight: 500;
+  color: #ffffff;
+  background: none;
+  border: none; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Item-Top-H:hover {
+  text-shadow: 0px 0px 7px #FFF;
+  cursor: pointer;
+
+
+}

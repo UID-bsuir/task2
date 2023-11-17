@@ -1,1003 +1,682 @@
 {
-    "Header": [
-        "Main",
-        "Artist of the Day",
-        "About",
-        "Developers",
-        "Singers"
-    ],
-    "Footer": [
-        "2023 © All rights reserved"
-    ],
-    "MainPage": {
-        "Header": {
-            "Title": "Finally a place where music lives",
-            "SubInfo": "",
-            "Button": "Move on to singers"
+  "en": {
+      "Header": {
+        "Logo": {
+          "Src": "../../../assets/images/logo.png",
+          "Alt": "logo"
         },
-        // cron? 
-        "ArtistOfTheDay": {
-            "Title": "Artist of the day",
-            "Name": "",
-            "ShortInfo": "",
-            "Button": "Learn More",
-            "QuickFacts": [ 
-                "",
-                "",
-                "",
-                "",
-                ""
-            ]
-        },
-        "ProjectInfo": {
-            "Title": "Wanna know about the project?",
-            "Facts": [
-                {
-                    "Title": "Dive into the history",
-                    "Subtitle": "Important (very)",
-                    "Info": [
-                        "",
-                        ""
-                    ]
-                },
-                {
-                    "Title": "Stay in tune",
-                    "Subtitle": "Learn smth new!",
-                    "Info": [
-                        "",
-                        ""
-                    ]
-                },
-                {
-                    "Title": "Use our app",
-                    "Subtitle": "Nice UX, Cool UI",
-                    "Info": [
-                        "",
-                        ""
-                    ]
-                }
-            ]    
-        },
-        "Developers": {
-            "Title": "Thanks to those who code!",
-            "Devs": [
-                {
-                    "Nickname": "Xenona",
-                    "GHLink": "https://github.com/Xenona",
-                    "Facts": [
-                        "team Lead",
-                        "design",
-                        ""
-                    ]
-                },
-                {
-                    "Nickname": "Mkulik05",
-                    "GHLink": "https://github.com/mkulik05",
-                    "Facts": [
-                        "tech Lead",
-                        "deployment",
-                        ""
-                    ]
-                },
-                {
-                    "Nickname": "SignificantNose",
-                    "GHLink": "https://github.com/SignificantNose",
-                    "Facts": [
-                        "creative designer",
-                        "content line-ups",
-                        ""
-                    ]
-                },
-                {
-                    "Nickname": "EgMcDuck",
-                    "GHLink": "https://github.com/EgMcDuck",
-                    "Facts": [
-                        "developer",
-                        "",
-                        ""
-                    ]
-                }
-            ],
-            "Note": {
-                "Title": "Note:",
-                "Info": "to check GitHub profiles, you may click on profile pics"
-            }
-        }
-    },
-    "SearchPage": {
-        "Hint": "I am looking for..."
-    },
-    "ArtistPage": {
-        "Places": {
-            "Title": "Most common places"
-        },
-        "Video": {
-            "Title": "Watch to know more!"
-        },
-        "Gallery": {
-            "Title": "Gallery"
-        }
-    },
-    "NotFoundPage": {
-        "Title": "Sorry, the page you are looking for is not found",
-        "Button": "Move on to Main"
-    },
-    "Artists": [
-        {
-<<<<<<< HEAD
-            "Name": "",
-            "Years": "",
-            "ShortInfo": "",
+        "Menu": [
+          {
+            "Title": "Main",
+            "Url": "/main"
+          },
+          {
+            "Title": "Artist of the Day",
+            "Url": "/main/#artist"
+          },
+          {
+            "Title": "About",
+            "Url": "/main/#about"
+          },
+          {
+            "Title": "Developers",
+            "Url": "/main/#devs"
+          },
+          {
+            "Title": "Singers",
+            "Url": "/search"
+          }
+        ]
+      },
+      "Footer": [
+          "2023 © All rights reserved"
+      ],
+      "MainPage": {
+          "Header": {
+              "Title": "Finally a place where music lives",
+              "SubInfo": "",
+              "Button": "Move on to singers"
+          },
+          "ArtistOfTheDay": {
+              "Title": "Artist of the day",
+              "Name": "",
+              "ShortInfo": "",
+              "Button": "Learn More",
+              "QuickFacts": [ 
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+              ]
+          },
+          "ProjectInfo": {
+              "Title": "Wanna know about the project?",
+              "Facts": [
+                  {
+                      "Title": "Dive into the history",
+                      "Subtitle": "Important (very)",
+                      "Info": [
+                          "",
+                          ""
+                      ]
+                  },
+                  {
+                      "Title": "Stay in tune",
+                      "Subtitle": "Learn smth new!",
+                      "Info": [
+                          "",
+                          ""
+                      ]
+                  },
+                  {
+                      "Title": "Use our app",
+                      "Subtitle": "Nice UX, Cool UI",
+                      "Info": [
+                          "",
+                          ""
+                      ]
+                  }
+              ]    
+          },
+          "Developers": {
+              "Title": "Thanks to those who code!",
+              "Devs": [
+                  {
+                      "Nickname": "Xenona",
+                      "GHLink": "https://github.com/Xenona",
+                      "Facts": [
+                          "team Lead",
+                          "design",
+                          ""
+                      ]
+                  },
+                  {
+                      "Nickname": "Mkulik05",
+                      "GHLink": "https://github.com/mkulik05",
+                      "Facts": [
+                          "tech Lead",
+                          "deployment",
+                          ""
+                      ]
+                  },
+                  {
+                      "Nickname": "SignificantNose",
+                      "GHLink": "https://github.com/SignificantNose",
+                      "Facts": [
+                          "creative designer",
+                          "content line-ups",
+                          ""
+                      ]
+                  },
+                  {
+                      "Nickname": "EgMcDuck",
+                      "GHLink": "https://github.com/EgMcDuck",
+                      "Facts": [
+                          "developer",
+                          "",
+                          ""
+                      ]
+                  }
+              ],
+              "Note": {
+                  "Title": "Note:",
+                  "Info": "to check GitHub profiles, you may click on profile pics"
+              }
+          }
+      },
+      "SearchPage": {
+          "Hint": "I am looking for..."
+      },
+      "ArtistPage": {
+          "Places": {
+              "Title": "Most common places"
+          },
+          "Video": {
+              "Title": "Watch to know more!"
+          },
+          "Gallery": {
+              "Title": "Gallery"
+          }
+      },
+      "NotFoundPage": {
+          "Title": "Sorry, the page you are looking for is not found",
+          "Button": "Move on to Main"
+      },
+      "Artists": [
+          {
+            "Name": "Kendrick Lamar",
+            "Years": "1987 - present",
+            "ShortInfo": "American rapper, singer, and songwriter. Known as \"King Kendrick\", he is widely regarded as one of the most influential rappers of his generation.",
             "QuickFacts": [
-                "", // the same as Years
-                "", // Origin
-                "", // Most common genre
-                "", // Most famous album
-                ""  // Most famous song
+              "1987 - present", 
+              "Compton, California, U.S.", 
+              "Hip hop, progressive rap, West Coast hip hop", 
+              "To Pimp A Butterfly", 
+              "Swimming Pools (Drank)" 
             ],
-            "Biography": {
-                // still have no idea what we have 
-                // here in terms of structure as I
-                // didn't see that component we are
-                // gonna use, so come up with smth.
-                // Anything will do, I trust you.
-            },
+            "Biography": [
+              {
+                "date": "2003",
+                "info": "In 2003, at the age of 16, Lamar released his first full-length project, a mixtape titled Youngest Head Nigga in Charge (Hub City Threat: Minor of the Year), under the pseudonym K.Dot. The mixtape was released under Konkrete Jungle Muzik and garnered local recognition for Lamar. The mixtape led to securing a recording contract with Top Dawg Entertainment (TDE), a newly founded independent record label based in Carson, California."
+              },
+              {
+                "date": "Sep 14, 2010",
+                "info": "Throughout 2010, Lamar toured with Tech N9ne and Jay Rock on The Independent Grind tour. On September 14, 2010, he released the visuals for \"P&P 1.5,\" a song taken from his mixtape, Overly Dedicated, featuring Black Hippy member Ab-Soul. On the same date, Lamar released Overly Dedicated to digital retailers under TDE, and later on September 23, released it for free online."
+              },
+              {
+                  "date": "July 31, 2014",
+                  "info": "It was announced that Lamar would premiere his short film m.A.A.d at Sundance's inaugural NEXT Fest in Los Angeles on August 9. The film is inspired by good kid, m.A.A.d city, and was directed by Kahlil Joseph, who had previously worked with Lamar on the Yeezus Tour."
+              },
+              {
+                "date": "May 8, 2022",
+                "info": "He released the promotional single \"The Heart Part 5\". Lamar's fifth studio album, Mr. Morale & the Big Steppers, was released on May 13. Ahead of its release, he visited Ghana to shoot a mini documentary with Spotify. He invited and met music executives and other Ghanaian artists such as Stonebwoy, Amaarae, Black Sherif, and Smallgod during a private album listening party in Accra."
+              }
+            ],
             "Places": {
-                "Link": "", // Qestionable too
-                "Desription": ""
+              "Link": "", 
+              "Desription": ""
             },
             "Video": {
-                "Link": ""
+              "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
             },
             "Gallery": [
-                // Just list here all relative paths to pics
-                // you wanna use. Load them to src/assets/images
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "" 
+              "./images/kendrick-lamar-1.jpg",
+              "./images/kendrick-lamar-2.jpg",
+              "./images/kendrick-lamar-3.jpg",
+              "./images/kendrick-lamar-4.jpg",
+              "./images/kendrick-lamar-5.jpg",
+              "./images/kendrick-lamar-6.jpg",
+              "./images/kendrick-lamar-7.jpg",
+              "./images/kendrick-lamar-8.jpg"
             ]
-        },
-        {
-            // Continue listing all the artists you want.
-            // Use the same structure as above
-        },
-        {
-
-        }
-        // and so on, no trailing commas, though
-=======
-          "Name": "Kendrick Lamar",
-          // Кендрик Ламар
-          "Years": "1987 - present",
-          // "1987 - наст. время"
-          "ShortInfo": "American rapper, singer, and songwriter. Known as \"King Kendrick\", he is widely regarded as one of the most influential rappers of his generation.",
-          // Американский рэпер и автор песен. Он часто считается одним из самых влиятельных хип-хоп исполнителей своего поколения.
-          "QuickFacts": [
-            "1987 - present", // the same as Years
-            "Compton, California, U.S.", // Origin
-            "Hip hop, progressive rap, West Coast hip hop", // Most common genre
-            "To Pimp A Butterfly", // Most famous album
-            "Swimming Pools (Drank)" // Most famous song
-          ],
-          //[
-          // "1987 - наст. время",
-          // "Комптон, Калифорния, США",
-          //  "Хип-хоп, прогрессивный рэп, хип-хоп Западного Побережья", 
-          //  "To Pimp A Butterfly", 
-          //  "Swimming Pools (Drank)" 
-          //]
-          "Biography": [
-            {
-              "date": "2003",
-              "info": "In 2003, at the age of 16, Lamar released his first full-length project, a mixtape titled Youngest Head Nigga in Charge (Hub City Threat: Minor of the Year), under the pseudonym K.Dot. The mixtape was released under Konkrete Jungle Muzik and garnered local recognition for Lamar. The mixtape led to securing a recording contract with Top Dawg Entertainment (TDE), a newly founded independent record label based in Carson, California."
-            },
-            //{
-            //  "date": "2003",
-            //  "info": "В 2003 году, в возрасте 16 лет, Кендрик выпустил свой первый полноформатный проект, микстейп под названием Youngest Head Nigga in Charge (Hub City Threat: Minor of the Year), под псевдонимом K.Dot. Микстейп был выпущен под лейблом Konkrete Jungle Muzik и принес Кендрику местное признание. Микстейп привел к тому, что Кендрик заключил контракт на запись с Top Dawg Entertainmentruen (TDE), недавно основанным независимым звукозаписывающим лейблом, базирующимся в Карсоне, Калифорния."
-            //},
-            {
-              "date": "Sep 14, 2010",
-              "info": "Throughout 2010, Lamar toured with Tech N9ne and Jay Rock on The Independent Grind tour. On September 14, 2010, he released the visuals for \"P&P 1.5,\" a song taken from his mixtape, Overly Dedicated, featuring Black Hippy member Ab-Soul. On the same date, Lamar released Overly Dedicated to digital retailers under TDE, and later on September 23, released it for free online."
-            },
-            //{
-            //  "date": "14 сентября, 2010",
-            //  "info": "В течение 2010 года Кендрик гастролировал с Tech N9ne и Jay Rock в рамках Independent Grind Tour. 14 сентября 2010 года он выпустил визуальные эффекты к \"P&P 1.5\", песне, взятой из его микстейпа Overly Dedicatedruen, в котором участвовала Black Hippyruen. В тот же день Кендрик выпустил Overly Dedicatedruen, предназначенный для цифровых ритейлеров, в рамках TDE, а позже, 23 сентября, выпустил его бесплатно онлайн."
-            //},
-            {
-                "date": "July 31, 2014",
-                "info": "It was announced that Lamar would premiere his short film m.A.A.d at Sundance's inaugural NEXT Fest in Los Angeles on August 9. The film is inspired by good kid, m.A.A.d city, and was directed by Kahlil Joseph, who had previously worked with Lamar on the Yeezus Tour."
-            },
-            //{
-            //  "date": "31 июля, 2014",
-            //  "info": "Было объявлено, что Кендрик проведет премьеру своего короткометражного фильма Good kid, m.A.A.d city на инаугурационном фестивале Sundance NEXT Fest в Лос-Анджелесе 9 августа. Фильм снят режисером Калилом Джозефом Good kid, m.A.A.d city, который ранее работал с Кендриком в туре Yeezus."
-            //},
-            {
-              "date": "May 8, 2022",
-              "info": "He released the promotional single \"The Heart Part 5\". Lamar's fifth studio album, Mr. Morale & the Big Steppers, was released on May 13. Ahead of its release, he visited Ghana to shoot a mini documentary with Spotify. He invited and met music executives and other Ghanaian artists such as Stonebwoy, Amaarae, Black Sherif, and Smallgod during a private album listening party in Accra."
-            }
-            //{
-            //  "date": "May 8, 2022",
-            //  "info": "Пятый студийный альбом Кендрика, Mr. Morale & the Big Steppers, был выпущен 13 мая. В преддверии его выхода он посетил Гану, чтобы снять мини-документальный фильм для Spotify. Он также пригласил музыкальных руководителей и других ганских артистов, таких как Stonebwoyruen, Amaaraeruen, Black Sherifruen и Smallgodruen, и встретился с ними во время частной вечеринки по прослушиванию альбома в Аккре."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
           },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
-          },
-          "Gallery": [
-            "./images/kendrick-lamar-1.jpg",
-            "./images/kendrick-lamar-2.jpg",
-            "./images/kendrick-lamar-3.jpg",
-            "./images/kendrick-lamar-4.jpg",
-            "./images/kendrick-lamar-5.jpg",
-            "./images/kendrick-lamar-6.jpg",
-            "./images/kendrick-lamar-7.jpg",
-            "./images/kendrick-lamar-8.jpg"
-          ]
-        },
-        {
-          "Name": "Donald Glover",
-          // Дональд Гловер
-          "Years": "1983 - present",
-          // "1983 - наст. время"
-          "ShortInfo": "Donald McKinley Glover Jr., also known by his stage name Childish Gambino, is an American actor, comedian, singer, rapper, writer, director, and producer",
-          // Дональд Гловер — также известный под сценическим псевдонимом Childish Gambino — американский актер, комик, певец, рэпер, писатель, режиссер и продюсер.
-          "QuickFacts": [
-            "1983 - present", 
-            "Edwards Air Force Base, California, U.S.",
-            "Hip hop, funk, R&B, soul", 
-            "Camp",
-            "This is America" 
-          ],
-          //[
-          // "1983 - наст. время",
-          // "Авиабаза «Эдвардс», Калифорния, США",
-          //  "Хип-хоп, фанк, ритм-энд-блюз, соул", 
-          //  "Camp", 
-          //  "This is America" 
-          //]
-          "Biography": [
-            {
-              "date": "March 2011",
-              "info": "His first extended play, titled EP, was released as a free digital download in March 2011. A music video for the song \"Freaks and Geeks\" was released in that month and Glover hosted the MTVU Woodie Awards at South By Southwest. Glover commenced his nationwide IAMDONALD Tour in April. The tour was a one-man live show that consisted of rap, comedy, and video segments."
-            },
-            //{
-            //  "date": "Март 2011",
-            //  "info": "Его первая расширенная версия, получившая название EP, была выпущена в качестве бесплатной цифровой загрузки в марте 2011 года. В том же месяце было выпущено музыкальное видео на песню «Freaks and Geeks», а Гловер принимал участие в церемонии вручения премии MTVU Woodie Awards на South By Southwest. Гловер начал свое общенациональное турне IAMDONALD в апреле. Тур представлял собой индивидуальное живое шоу, состоящее из рэпа, комедии и видеосегментов."
-            //},
-            {
-              "date": "September 2016",
-              "info": "Glover held three musical performances, known as the \"Pharos Experience\", in Joshua Tree, California, where he debuted songs from his third studio album \"Awaken, My Love!\". The album was released in December, charting at number five on the Billboard 200 and was later certified platinum accumulating 1,000,000 certified units. It was considered a bold departure from his usual hip hop style as it primarily featured Glover singing rather than rapping, and saw him draw influences from psychedelic soul, funk and R&B music, particularly of the funk band Funkadelic."
-            },
-            //{
-            //  "date": "Март 2011",
-            //  "info": "В сентябре 2016 года Гловер провёл три музыкальных выступления, известных как «Pharos Experience», в Джошуа Три, Калифорния, где он дебютировал песнями из своего третьего студийного альбома «Awaken, My Love!». Альбом был выпущен в декабре, заняв пятое место в чарте Billboard 200, а позже был сертифицирован как платиновый, собрав 1 000 000 сертифицированных копий. Это считалось смелым отходом от его обычного стиля хип-хоп, поскольку в нём Гловер в основном пел, а не читал рэп, и на него оказали влияние психоделический соул, фанк и R&B музыка, особенно фанк-группа Funkadelic."
-            //},
-            {
-                "date": "May 2018",
-                "info": "Glover signed with RCA Records in January 2018, which Glover called \"a necessary change of pace\". In May 2018, he released a single titled \"This Is America\" while performing as both host and musical guest on Saturday Night Live. The song debuted at number one, becoming both Glover's first number one and top ten single in the United States. It features him singing and rapping, drawing influence from trap music. The lyrics addressed a variety of topics including gun violence and being black in the United States, while its controversial video, directed by Japanese-American filmmaker and frequent collaborator Hiro Murai, showed Glover with a firearm shooting at a choir."
-            },
-            //{
-            //  "date": "Май 2018",
-            //  "info": "Гловер подписал контракт с RCA Records в январе 2018 года, что Гловер назвал «необходимой сменой темпа». В мае 2018 года он выпустил сингл под названием «This Is America», выступая в качестве ведущего и музыкального гостя в «Saturday Night Live». Песня дебютировала на первом месте, став одновременно первым синглом Гловера номер один и десяткой лучших в Соединенных Штатах. В нём он поет и читает рэп, черпая вдохновение из трэп-музыки. Тексты песен затрагивали различные темы, включая насилие с применением огнестрельного оружия и чернокожесть в Соединенных Штатах, в то время как в скандальном видео, снятом японским режиссером и частым соавтором Хиро Мураи, Гловер стрелял из огнестрельного оружия в хор."
-            //},
-            {
-              "date": "March 15, 2020",
-              "info": "On March 15, 2020, Glover streamed his surprise fourth album on his website Donald Glover Presents, where it played on a loop for twelve hours until it was taken down. 21 Savage and Ariana Grande feature on the album. The album was released on digital services the following week under the name 3.15.20. It was well received by music critics and debuted at number 13 on the Billboard 200."
-            }
-            //{
-            //  "date": "15 марта, 2020",
-            //  "info": "15 марта 2020 года Гловер транслировал свой неожиданный четвертый альбом на своем веб-сайте Donald Glover Presents, где он проигрывался в цикле в течение двенадцати часов. В альбоме представлены 21 Savage и Ариана Гранде. Альбом был выпущен на цифровых сервисах на следующей неделе под названием «3.15.20». Он был хорошо принят музыкальными критиками и дебютировал под номером 13 в Billboard 200."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
-          },
-          "Gallery": [
-            "./images/dong-lover-1.jpg",
-            "./images/dong-lover-2.jpg",
-            "./images/dong-lover-3.jpg",
-            "./images/dong-lover-4.jpg",
-            "./images/dong-lover-5.jpg",
-            "./images/dong-lover-6.jpg",
-            "./images/dong-lover-7.jpg",
-            "./images/dong-lover-8.jpg"
-          ]
-        },
-        {
-          "Name": "Michael Jackson",
-          // Майкл Джексон
-          "Years": "1958 - 2009",
-          // "1958 - 2009"
-          "ShortInfo": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Known as the \"King of Pop\", he is regarded as one of the most significant cultural figures of the 20th century.",
-          // Майкл Джозеф Джексон — американский певец, автор песен, музыкальный продюсер, аранжировщик, танцор, хореограф, актёр, сценарист, филантроп и предприниматель. Один из самых успешных исполнителей в истории поп-музыки, известен как «Король поп-музыки».
-          "QuickFacts": [
-            "1958 - 2009", 
-            "Gary, Indiana, US",
-            "Pop, soul, rhythm and blues, funk, rock, disco", 
-            "Thriller",
-            "Billie Jean" 
-          ],
-          //[
-          // "1958 - 2009",
-          // "Гэри, Лейк, Индиана, США",
-          //  "Поп, рок, соул, R&B, фанк, диско", 
-          //  "Thriller", 
-          //  "Billie Jean" 
-          //]
-          "Biography": [
-            {
-              "date": "1964-1965",
-              "info": "In 1964, Michael and Marlon joined the Jackson Brothers — a band formed by their father which included Jackie, Tito and Jermaine — as backup musicians playing congas and tambourine. Later in 1965, Michael began sharing lead vocals with Jermaine, and the group's name was changed to the Jackson 5. The Jackson 5 recorded several songs for a Gary record label, Steeltown Records; their first single, \"Big Boy\", was released in 1968."
-            },
-            //{
-            //  "date": "1964-1965",
-            //  "info": "В 60-х гг. Джозеф (отец) стал задумываться о том, чтобы создать коллектив, состоящий из его старших сыновей. Первоначально в группу The Jackson Brothers вошли Джеки, Джермейн и Тито. К коллективу тогда же присоединился и Марлон, и группа из пяти братьев была переименована в The Jackson 5. Сначала братья выступали в местных клубах, на лейбле Гэри Steeltown Recordsruen был выпущен их первый сингл, затем коллектив показал себя на местных шоу талантов."
-            //},
-            {
-              "date": "1982",
-              "info": "Jackson's sixth album, Thriller, was released in late 1982. It was the bestselling album worldwide in 1983, and became the bestselling album of all time in the US and the best-selling album of all time worldwide, selling an estimated 70 million copies. It topped the Billboard 200 chart for 37 weeks and was in the top 10 of the 200 for 80 consecutive weeks. It was the first album to produce seven Billboard Hot 100 top-10 singles, including \"Billie Jean\", \"Beat It\", and \"Wanna Be Startin' Somethin'\"."
-            },
-            //{
-            //  "date": "1982",
-            //  "info": "В апреле 1982 года началась запись нового альбома Джексона, впоследствии получившего название Thriller. Он был выпущен 30 ноября 1982 года, руководители компании CBS Records впервые провели кампанию по одновременному релизу альбома во всём мире, а не последовательному выпуску, как это происходило обычно. Всего за год Thriller стал самым продаваемым альбомом всех времён и остаётся таковым до сих пор. По данным разных источников, мировые продажи Thriller составляют от 65 до 110 миллионов экземпляров."
-            //},
-            {
-                "date": "1991",
-                "info": "In 1991, he released his eighth album, Dangerous, co-produced with Teddy Riley. It was certified eight times platinum in the US, and by 2018 had sold 32 million copies worldwide. In the US, the first single, \"Black or White\", was the album's highest-charting song; it was number one on the Billboard Hot 100 for seven weeks and achieved similar chart performances worldwide. The second single, \"Remember the Time\" peaked at number three on the Billboard Hot 100 singles chart."
-            },
-            //{
-            //  "date": "1991",
-            //  "info": "Певцу нравился синтез хип-хопа, фанка и соула в новом тогда музыкальном направлении под названием нью-джек-свинг, именно эти ритмы он хотел услышать в своём новом материале, поэтому работу над новым альбомом Dangerous он начал с молодым продюсером и музыкантом Тедди Райли. Пластинка, работа над которой велась около двух лет, была выпущена 11 ноября 1991 года, в декабре она возглавила чарт Billboard 200. Первым синглом из альбома стала композиция «Black or White», призывающая к расовой гармонии и затрагивающая тему расизма."
-            //},
-            {
-              "date": "June 1995",
-              "info": "In June 1995, Jackson released the double album HIStory: Past, Present and Future, Book I. The first disc, HIStory Begins, is a greatest hits album (reissued in 2001 as Greatest Hits: HIStory, Volume I). The second disc, HIStory Continues, contains 13 original songs and two cover versions. The album debuted at number one on the charts and has been certified for eight million shipments in the US. It is the bestselling multi-disc album of all time, with 20 million copies (40 million units) sold worldwide."
-            }
-            //{
-            //  "date": "Июнь 1995",
-            //  "info": "Запись новой пластинки Майкла Джексона велась с января 1994 года, альбом HIStory: Past, Present and Future был выпущен в июне 1995 года. На первом компакт-диске издания представлена компиляция из 15 известных хитов музыканта, на втором — новый материал. Джексон включил в HIStory семь композиций собственного авторства. По различным оценкам альбом разошёлся в мире тиражом 20 — 30 миллионов экземпляров (40 — 60 млн компакт-дисков). В конце июня — начале июля 1995 года HIStory дебютировал на верхних строчках чартов США и Великобритании, а также возглавил общеевропейский хит-парад Eurochart Hot 100."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
-          },
-          "Gallery": [
-            "./images/michael-jackson-1.jpg",
-            "./images/michael-jackson-2.jpg",
-            "./images/michael-jackson-3.jpg",
-            "./images/michael-jackson-4.jpg",
-            "./images/michael-jackson-5.jpg",
-            "./images/michael-jackson-6.jpg"
-          ]
-        },
-        {
-          "Name": "Katy Perry",
-          // Кэти Перри
-          "Years": "1984 - present",
-          // "1984 - наст. время"
-          "ShortInfo": "Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter and television personality. She is known for her influence on modern pop music and her camp style",
-          // Кэтрин Элизабет Хадсон, более известная как Кэти Перри — американская певица, композитор, автор песен, актриса, посол доброй воли ООН. Перри является обладательницей многочисленных наград, была тринадцать раз номинирована на премию «Грэмми».
-          "QuickFacts": [
-            "1984 - present", 
-            "Santa Barbara, California, U.S.",
-            "Pop, rock, disco", 
-            "One Of The Boys",
-            "Dark Horse" 
-          ],
-          //[
-          // "1984 - наст. время",
-          // "Санта-Барбара, Калифорния, США",
-          //  "Gоп, рок-музыка, поп-рок", 
-          //  "One Of The Boys", 
-          //  "Dark Horse" 
-          //]
-          "Biography": [
-            {
-              "date": "May 7, 2010",
-              "info": "After serving as a guest judge on American Idol, Perry released \"California Gurls\" featuring Snoop Dogg on May 7, 2010. The song was the lead single from her third studio album, Teenage Dream, and reached number one on the Billboard Hot 100 in June. She also served as a guest judge on British The X Factor later that month before releasing the album's second single, \"Teenage Dream\", in July. \"Teenage Dream\" reached number one on the Billboard Hot 100 in September."
-            },
-            //{
-            //  "date": "7 мая, 2010",
-            //  "info": "В мае 2010 года Кэти выпускает сингл «California Gurls» при участии рэпера Snoop Dogg. Сингл стал мировым хитом и был продан в количестве 8,5 миллионов цифровых загрузок в мире. «California Gurls» продержалась на 1 месте в американском чарте 6 недель. Она также возглавила чарты Великобритании, Канады, Австралии, Новой Зеландии. Издание Billboard поставило песню на первое место в рейтинге 30 самых великих летних хитов. В июле вышел второй сингл «Teenage Dream» из предстоящего одноимённого альбома, который также возглавил американский чарт и продержался на первом месте 2 недели."
-            //},
-            {
-              "date": "November 2012",
-              "info": "In November 2012, Perry began work on her fourth album, Prism. She told Billboard, \"I know exactly the record I want to make next. I know the artwork, the coloring and the tone\" and \"I even know what type of tour I'm doing next. I'll be very pleased if the vision I have in my head becomes a reality.\""
-            },
-            //{
-            //  "date": "Ноябрь 2012",
-            //  "info": "Осенью 2012 года для издания Billboard Перри дала интервью, в котором раскрыла несколько особенностей её нового альбома Prism. Она продумала обложку, стилистику композиций, выбрала общий тон пластинки. Но при этом она не хотела создать Teenage Dream 2.0., заявив, что «это было бы глупо и неинтересно»"
-            //},
-            {
-                "date": "2016",
-                "info": "Perry started writing songs for her new album in June 2016, and recorded an anthem for NBC Sports's coverage of the 2016 Summer Olympics titled \"Rise\", which was released the following month. Perry chose to release it as a standalone track rather than save it for her album \"because now more than ever, there is a need for our world to unite\"."
-            }
-            //{
-            //  "date": "2016",
-            //  "info": "14 июля 2016 года состоялась премьера песни «Rise», которая стала официальным гимном Летних Олимпийских игр 2016. 10 февраля 2017 года Кэти Перри выпустила сингл «Chained To The Rhythm». 12 февраля Кэти выступила на 59 церемонии «Грэмми», на «BRIT Awards» 22 февраля, а 5 марта на премии «iHeartRadio Music Awards» с новой песней."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
-          },
-          "Gallery": [
-            "./images/katy-perry-1.jpg",
-            "./images/katy-perry-2.jpg",
-            "./images/katy-perry-3.jpg",
-            "./images/katy-perry-4.jpg",
-            "./images/katy-perry-5.jpg"
-          ]
-        },
-        {
-          "Name": "Nicki Minaj",
-          // Ники Минаж
-          "Years": "1982 - present",
-          // "1982 - наст. время"
-          "ShortInfo": "Onika Tanya Maraj-Petty, known professionally as Nicki Minaj, is a Trinidadian-born rapper, singer, and songwriter based in the United States.",
-          // Оника Таня Мараж-Петти, известная под псевдонимом Ники Минаж — тринидадская певица, рэперша, автор песен и актриса. Заметил талант молодой девушки Лил Уэйн.
-          "QuickFacts": [
-            "1982 - present", 
-            "Port of Spain, Trinidad and Tobago",
-            "Hip hop, pop", 
-            "Pink Friday",
-            "Starships" 
-          ],
-          //[
-          // "1982 - наст. время",
-          // "Сент-Джеймс, Порт-оф-Спейн, Тринидад и Тобаго",
-          // "Хип-хоп, ар-н-би, поп, танцевальная", 
-          // "Pink Friday", 
-          // "Starships" 
-          //]
-          "Biography": [
-            {
-              "date": "November 19, 2010",
-              "info": "Pink Friday was released on November 19, 2010, debuting at number two and later reaching number one on the Billboard 200, with first-week sales of 375,000 copies. It had the highest sales week for a female rap album this century and second highest sales week overall after Lauryn Hill's The Miseducation of Lauryn Hill (1998). Upon release, the album received generally positive reviews from critics. The album was certified platinum in December, with it becoming the first album by a solo female rapper to go platinum in seven years."
-            },
-            //{
-            //  "date": "19 ноября, 2010",
-            //  "info": "После подписания контракта Ники Минаж начала работу над своим дебютным альбомом. Он получил название Pink Friday и был выпущен 19 ноября 2010 года. Альбом продаётся в двух версиях: 13 (стандартная версия) или 17 песен (делюкс-издание). Выходу альбома предшествовал мини-промотур включавший пять городов. Четыре в США: Филадельфия, Ватербулли, Вашингтон, Бостон, а также один концерт на родине певицы в городе Порт-оф-Спейн, столице государства Тринидад и Тобаго. Пластинка очень хорошо показала себя в чартах по всему миру, но особенно в США где альбом взобрался на вершину в US Billboard 200, US Billboard Top R&B/Hip-Hop Albums и US Billboard Rap Albums."
-            //},
-            {
-              "date": "December 15, 2014",
-              "info": "The Pinkprint was officially released on December 15, 2014, and debuted at number two in the U.S, with first week sales of 244,000 equivalent units (198,000 in pure album sales and 46,000 combined album-equivalent units and streams). Upon release, critics praised the production and personal lyrics."
-            },
-            //{
-            //  "date": "15 декабря, 2014",
-            //  "info": "Через Twitter один из фанатов спросил, будет ли третий альбом называться The Pinkprint, на что Оника ответила нет, однако позже она всё-таки подтвердила что альбом будет называться The Pinkprint. 21 мая 2014 года Минаж выпускает «Pills n Potions» — первый сингл с альбома The Pinkprint. Пиком для сингла в чарте Billboard Hot 100 становится 24 место."
-            //},
-            {
-                "date": "April 12, 2018",
-                "info": "After a social media hiatus, Minaj released two singles from her fourth studio album Queen. She released \"Chun-Li\" and \"Barbie Tingz\" simultaneously on April 12, 2018, with both reaching number ten and number twenty-five in the U.S. respectively. She performed \"Chun-Li\" on Saturday Night Live and the 2018 BET Awards. While \"Chun Li\" appears on the tracklist of the album, \"Barbie Tingz\" is only included on the Target version of the album."
-            }
-            //{
-            //  "date": "12 апреля, 2018",
-            //  "info": "10 апреля 2018 года Минаж анонсировала выход двух синглов «Chun-Li» и «Barbie Tingz» 12 апреля 2018 года. Позже стало известно, что «Chun-Li» выступил в роли лид-сингла к будущему четвёртому студийному альбому, когда «Barbie Tingz» не попадет в финальный трек-лист из 19 песен. 7 мая 2018 года, на церемонии Met Gala, Минаж сообщила название будущего альбома — Queen и дату его релиза — 15 июня 2018 года. 19 мая 2018 года Минаж стала музыкальным гостем финального выпуска 43 сезона шоу Saturday Night Live."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
-          },
-          "Gallery": [
-            "./images/nicki-minaj-1.jpg",
-            "./images/nicki-minaj-2.jpg",
-            "./images/nicki-minaj-3.jpg",
-            "./images/nicki-minaj-4.jpg",
-            "./images/nicki-minaj-5.jpg",
-            "./images/nicki-minaj-6.jpg"
-          ]
-        },
-        {
-          "Name": "Aurora",
-          // Аврора
-          "Years": "1996 - present",
-          // "1996 - наст. время"
-          "ShortInfo": "Aurora Aksnes, known mononymously as Aurora (stylized in all caps), is a Norwegian singer, songwriter and record producer. She began writing her first songs and learning dance at the age of six.",
-          // Аврора Акснес, известная как AURORA — норвежская певица, композитор и музыкальный продюсер. Она начала писать свои первые песни и изучать танцы в шесть лет.
-          "QuickFacts": [
-            "1996 - present", 
-            "Stavanger, Norway",
-            "Art pop, Nordic folk, synth-pop, electropop", 
-            "The Gods We Can Touch",
-            "Runaway" 
-          ],
-          //[
-          // "1996 - наст. время",
-          // "Ставангер, Норвегия",
-          // "альтернативная музыка, инди-поп, синти-поп, поп", 
-          // "The Gods We Can Touch", 
-          // "Runaway" 
-          //]
-          "Biography": [
-            {
-              "date": "2012-2015",
-              "info": "Aurora self-released the song \"Puppet\" as her debut single in December 2012 under her birth name. Aurora then set about working on her songwriting for around a year before giving her \"first proper live performance\" at Nabovarsel Minifestival in Bergen. Her next single, \"Running with the Wolves\" was released in April 2015, and its music video was released two months later. The song gained attention from BBC Radio station. It was released alongside the announcement of the release of her debut EP Running with the Wolves."
-            },
-            //{
-            //  "date": "2012",
-            //  "info": "Первая песня Авроры Puppet была выпущена в декабре 2012 года, вслед за ней в мае 2013 года выходит Awakening. Затем она подписывает контракт с лейблами Decca Records и Glassnote Records. В ноябре 2014 и феврале 2015 выходят песни под названием Under stars и Runaway. Running with the Wolves была выпущена в апреле 2015 года. Аврора выступает на летних фестивалях таких как Way Out West, Wilderness и Green Man Festival. Затем в сентябре 2015 года она выпускает ещё одну песню под названием Murder Song. Ещё в 2015 она выступает на Нобелевском концерте."
-
-            //},
-            {
-              "date": "2016",
-              "info": "When All My Demons Greeting Me as a Friend debuted, Aurora said that it was \"the first album of many\" she was planning to release. As of 12 May 2016, after coming back from her European tour, the singer announced that she was ready to begin writing and producing more material, which will form her second studio album. She stated in a Facebook event that she has fifteen demo songs and has written a thousand songs/poems."
-            },
-            //{
-            //  "date": "2016",
-            //  "info": "Когда All My Demons Greeting Me as a Friend дебютировали, Аврора сказала, что это был «первый альбом из многих». 12 мая 2016 года, вернувшись из европейского турне, певица объявила, что готова приступить к написанию и продюсированию большего количества материала, который сформирует её второй студийный альбом. С момента анонса Aurora выпустила сингл I Went Too Far."
-            //},
-            {
-                "date": "May 2020",
-                "info": "Aurora released the single \"Exist for Love\" in May 2020, which was presented as her first love song ever with a self-directed music video. The song was made during the COVID-19 lockdown in collaboration with Isobel Waller-Bridge, who composed the string arrangements. It was the first glimpse into what she described as \"a new era\" in her career, with the upcoming release of a new album."
-            }
-            //{
-            //  "date": "Май 2020",
-            //  "info": "В мае 2020 года Аврора выпустила песню Exist For Love, которая была представлена ​​как её первая песня о любви в музыкальном клипе, снятом самостоятельно. Песня была создана во время пандемии COVID-19 в сотрудничестве с Изобель Уоллер-Бридж, которая сочинила струнные аранжировки. Это был первый проблеск того, что она описала как «новую эру» в своей карьере, с предстоящим выпуском нового альбома."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
-          },
-          "Gallery": [
-            "./images/aurora-1.jpg",
-            "./images/aurora-2.jpg",
-            "./images/aurora-3.jpg",
-            "./images/aurora-4.jpg",
-            "./images/aurora-5.jpg",
-            "./images/aurora-6.jpg",
-            "./images/aurora-7.jpg"
-          ]
-        },
-        {
-          "Name": "Kanye West",
-          // Канье Уэст
-          "Years": "1977 - present",
-          // "1977 - наст. время"
-          "ShortInfo": "Ye, better known as Kanye West, is an American rapper, singer, songwriter, record producer, and fashion designer. West has won 24 Grammy Awards.",
-          // Йе, более известный под бывшим юридическим именем Канье Уэст — американский рэпер, музыкальный продюсер, автор песен, звукорежиссёр, бывший миллиардер и дизайнер.
-          "QuickFacts": [
-            "1977- present", 
-            "Atlanta, Georgia, U.S.",
-            "Hip hop, progressive rap, pop, art pop, gospel", 
-            "Graduation",
-            "Flashing Lights" 
-          ],
-          //[
-          // "1977 - наст. время",
-          // "Атланта, Фултон, Джорджия, США",
-          // "Современный ритм-н-блюз, Электропоп, Экспериментальная музыка, Альтернативный хип-хоп, Госпел", 
-          // "Graduation", 
-          // "Flashing Lights" 
-          //]
-          "Biography": [
-            {
-              "date": "mid-1990s",
-              "info": "West began his early production career in the mid-1990s, creating beats primarily for burgeoning local artists in the Chicago area. He received his first official production credits at age nineteen, when he produced eight tracks on Down to Earth, the 1996 debut album of Chicago-based underground rapper Grav. In 1998, West was the first producer signed to the management-production company Hip Hop Since 1978, founded by Gee Roberson and Kyambo \"Hip-Hop\" Joshua."
-            },
-            //{
-            //  "date": "середина-1990-х",
-            //  "info": "Канье Уэст начал свою музыкальную карьеру в середине 1990-х, создавая инструменталы для местных музыкантов. В конечном итоге он сформировал свой музыкальный стиль, основой для которого стали ускоренные сэмплы соул-композиций. Первое официальное упоминание Уэста встречается на дебютном и единственном альбоме чикагского рэпера Grav, Down to Earth, 1996 года, для которого Уэст спродюсировал восемь композиций и сам исполнил куплет в композиции «Line For Line»."
-            //},
-            {
-              "date": "2004",
-              "info": "The College Dropout received near-universal critical acclaim, was voted the top album of the year by two major music publications, and has consistently been ranked among the great hip-hop works and debut albums by artists. The College Dropout was certified triple platinum in the US, and garnered West 10 Grammy nominations, including Album of the Year, and Best Rap Album (which it received)."
-            },
-            //{
-            //  "date": "2004",
-            //  "info": "Уэст работал над The College Dropout, принося в студию свой рюкзак Louis Vuitton, заполненный дисками с музыкой. По словам GLC, на работу над одним инструменталом у Уэста уходило 15 минут. The College Dropout был издан на лейбле Roc-A-Fella Records в феврале 2004 года. Альбом дебютировал на второй строчке чарта Billboard 200, за первую неделю было продано почти полмиллиона экземпляров."
-            //},
-            {
-                "date": "2007",
-                "info": "West's third studio album, Graduation, garnered major publicity when its release date pitted West in a sales competition against rapper 50 Cent's Curtis. Upon their September 2007 releases, Graduation outsold Curtis by a large margin, debuting at number one on the U.S. Billboard 200 chart and selling 957,000 copies in its first week. Graduation continued the string of critical and commercial successes by West, and the album's lead single, \"Stronger\", garnered his third number-one hit."
-            },
-            //{
-            //  "date": "2007",
-            //  "info": "Альбом, названный Graduation, получил широкое освещение в прессе ещё до своего выхода: его дата релиза совпала с датой выхода альбома Curtis рэпера 50 Cent, из-за чего пресса устроила противостояние между рэперами. Незадолго до назначенной даты 50 Cent заявил, что закончит свою карьеру, если проиграет. Оба альбома вышли 11 сентября 2007 года. Graduation победил, продавшись за первую неделю тиражом 957 000 экземпляров, против 691 000 у Curtis. Graduation получил статус дважды платинового."
-            //},
-
-            {
-              "date": "2016",
-              "info": "West announced in January 2016 that SWISH would be released on February 11, and later that month, released new songs \"Real Friends\" and a snippet of \"No More Parties in LA\" with Kendrick Lamar. On January 26, 2016, West revealed he had renamed the album from SWISH to Waves. In the weeks leading up to the album's release, West became embroiled in several Twitter controversies. Several days ahead of its release, West again changed the title, this time to The Life of Pablo."
-            }
-            //{
-            //  "date": "2016",
-            //  "info": "Изначально выход седьмого альбома рэпера, называвшегося в то время So Help Me God, был запланирован на 2014 год. В марте 2015 Уэст заявил о смене названия на SWISH. В январе 2016 года Канье Уэст представил две композиции, «Real Friends» и «No More Parties in L.A.», позже попавшие на альбом, а также в очередной раз сменил название своего седьмого альбома, в этот раз на Waves. В результате Уэст сменил название альбома на окончательный вариант — The Life of Pablo."
-            //}
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
-          },
-          "Gallery": [
-            "./images/kanye-west-1.jpg",
-            "./images/kanye-west-2.jpg",
-            "./images/kanye-west-3.jpg",
-            "./images/kanye-west-4.jpg",
-            "./images/kanye-west-5.jpg",
-            "./images/kanye-west-6.jpg"
-          ]
-        },
-        {
-          "Name": "Taylor Swift",
-          // Тейлор Свифт
-          "Years": "1989 - present",
-          // "1989 - наст. время"
-          "ShortInfo": "Taylor Alison Swift is an American singer-songwriter. Recognized for her songwriting, musical versatility, artistic reinventions, and influence on the music industry, she is a prominent cultural figure of the 21st century.",
-          // Тейлор Элисон Свифт — американская певица и автор песен. Свифт начала профессионально заниматься музыкой в 14 лет и в 2005 году подписала контракт с лейблом Big Machine Records, намереваясь стать кантри-певицей.
-          "QuickFacts": [
-            "1989 - present", 
-            "West Reading, Pennsylvania, U.S.",
-            "Pop, country, folk, rock, alternative", 
-            "1989",
-            "Shake It Off" 
-          ],
-          //[
-          // "1989 - наст. время",
-          // "Уэст-Рединг, Беркс, Пенсильвания, США",
-          // "Кантри, кантри-поп, поп, поп-рок, синти-поп, инди-фолк", 
-          // "1989", 
-          // "Shake It Off" 
-          //]
-          "Biography": [
-            {
-              "date": "November 11, 2008",
-              "info": "Swift's second studio album, Fearless, was released on November 11, 2008, in North America, and in March 2009 in other markets. Critics lauded Swift's honest and vulnerable songwriting in contrast to other teenage singers. Five singles were released in 2008–2009: \"Love Story\", \"White Horse\", \"You Belong with Me\", \"Fifteen\", and \"Fearless\". The first single peaked at number four on the Billboard Hot 100 and number one in Australia."
-            },
-            //{
-            //  "date": "11 ноября, 2008",
-            //  "info": "12 сентября 2008 года состоялась премьера лид-сингла «Love Story» к предстоящему второму студийному альбому певицы Fearless. Это была её первая песня, которая получила международный успех и вошла в в топ-5 множества стран, в том числе, возглавив национальный чарт Австралии, где в итоге она получила 10 платиновых сертификаций. В США песня дебютировала с 16 места в Billboard Hot 100, уже на следующей неделе поднявшись до пятой строчки, а в январе 2009 года песня достигла четвёртого места в хит-параде."
-            //},
-            {
-              "date": "2010",
-              "info": "In August 2010, Swift released \"Mine\", the lead single from her third studio album, Speak Now. It entered the Hot 100 at number three. Swift wrote the album alone and co-produced every track. It was released on October 25, 2010, opening atop the Billboard 200 with over one million copies sold. It became the fastest-selling digital album by a female artist, with 278,000 downloads in a week."
-            },
-            //{
-            //  "date": "2010",
-            //  "info": "Тейлор Свифт выпустила свой третий студийный альбом, Speak Now, в октябре 2010 года. Она написала все 14 песен в одиночку, а сопродюсером стал её многолетний партнёр Нейтан Чапман. В музыкальном плане альбом расширил границы кантри-поп-музыки до альтернативного рока и бабблгам-поп-музыки. Йон Караманика из газеты The New York Times назвал новый альбом музыкально разнообразным и возможно лучшим в карьере певицы (на тот момент)."
-            //},
-            {
-                "date": "2014",
-                "info": "In March 2014, Swift began living in New York City. She hired Tree Paine as her publicist, and worked on her fifth studio album, 1989, with producers Jack Antonoff, Max Martin, Shellback, Imogen Heap, Ryan Tedder, and Ali Payami. She promoted the album extensively, including inviting fans to secret album-listening sessions. 1989 was released on October 27, 2014, and opened atop the Billboard 200 with 1.28 million copies sold."
-            }
-            //{
-            //  "date": "2014",
-            //  "info": "В октябре 2014 года вышел пятый студийный альбом — 1989. Работа над ним проходила в 2013—2014 годах в сотрудничестве со шведскими продюсерами Максом Мартином и Карлом Шустером (Шеллбеком). Свифт описывала свою будущую пластинку как «первый официальный поп-альбом», который представит новый музыкальный стиль, отличный от ранних работ исполнительницы в жанре кантри, и поэтому она рассталась с некоторыми членами её многолетней группы."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
-          },
-          "Gallery": [
-            "./images/taylor-swift-1.jpg",
-            "./images/taylor-swift-2.jpg",
-            "./images/taylor-swift-3.jpg",
-            "./images/taylor-swift-4.jpg",
-            "./images/taylor-swift-5.jpg",
-            "./images/taylor-swift-6.jpg"
-          ]
-        },
-        {
-          "Name": "Beyoncé",
-          // Бейонсе
-          "Years": "1981 - present",
-          // "1981 - наст. время"
-          "ShortInfo": "Beyoncé Giselle Knowles-Carter is an American singer, songwriter and businesswoman. Known as \"Queen Bey\", she has been recognized for her boundary-pushing artistry, vocals, and performances.",
-          // Бейонсе Жизель Ноулз-Картер, более известна мононимно как Бейонсе — американская певица в стиле R’n’B, актриса, танцовщица, музыкальный продюсер. Известная как «Королева Бей», она получила признание за свое непревзойденное артистизм, вокал и выступления.
-          "QuickFacts": [
-            "1981 - present", 
-            "Houston, Texas, U.S.",
-            "R&B, pop, hip hop", 
-            "RENAISSANCE",
-            "Crazy In Love" 
-          ],
-          //[
-          // "1981 - наст. время",
-          // "Хьюстон, Техас, США",
-          // "R'n'B, поп, хип-хоп", 
-          // "RENAISSANCE", 
-          // "Crazy In Love" 
-          //]
-          "Biography": [
-            {
-              "date": "June 2003",
-              "info": "On June 14, 2003, Beyoncé premiered songs from her first solo album Dangerously in Love during her first solo concert and the pay-per-view television special, \"Ford Presents Beyoncé Knowles, Friends & Family, Live From Ford's 100th Anniversary Celebration in Dearborn, Michigan\". The album was released on June 24, 2003, after Michelle Williams and Kelly Rowland had released their solo efforts. The album sold 317,000 copies in its first week, debuted atop the Billboard 200, and has since sold 11 million copies worldwide."
-            },
-            //{
-            //  "date": "Июнь 2003",
-            //  "info": "В июне 2003 года Ноулз выпустила дебютный альбом Dangerously in Love. В записи альбома принимали участие другие артисты, в него входили песни исполняемые в быстром темпе и стиле слоу джэм. Альбом возглавил Billboard 200 с продажами 317 000 копий на первой неделе, и по данным RIAA к 5 августа 2004 года стал четырежды платиновым. В США альбом был распродан тиражом 4,7 млн копий. В альбом вошло два первоклассных сингла. «Crazy in Love», записанный при участии рэпера Jay-Z, был выпущен как главный сингл альбома, возглавлял Billboard Hot 100 8 недель подряд, а также чарты многих стран."
-            //},
-            {
-              "date": "September 4, 2006",
-              "info": "Beyoncé's second solo album B'Day was released on September 4, 2006, in the US, to coincide with her twenty-fifth birthday. It sold 541,000 copies in its first week and debuted atop the Billboard 200, becoming Beyoncé's second consecutive number-one album in the United States. The album's lead single \"Déjà Vu\", featuring Jay-Z, reached the top five on the Billboard Hot 100 chart."
-            },
-            //{
-            //  "date": "4 сентября, 2006",
-            //  "info": "Мировой релиз альбома B’Day состоялся 4 сентября, а в США — 5 сентября 2006 года, что совпало с празднованием её 25-летия. Альбом занял первую строку в Billboard 200, с продажей более 541 000 копий на первой неделе, что стало рекордом для Ноулз как сольной певицы. По данным RIAA альбом стал трижды платиновым в США. Песня «Déjà Vu», записанная при участии Jay-Z, стала хитом. Сингл «Irreplaceable» возглавил чарты пяти стран и вошёл в топ-5 в США, Канаде и Нидерландах."
-            //},
-            {
-                "date": "2013",
-                "info": "On December 13, 2013, Beyoncé unexpectedly released her eponymous fifth studio album \"Beyoncé\" on the iTunes Store without any prior announcement or promotion. The album debuted atop the Billboard 200 chart, giving Beyoncé her fifth consecutive number-one album in the US."
-            }
-            //{
-            //  "date": "2013",
-            //  "info": "13 декабря Бейонсе выпустила свой пятый студийный альбом под названием Beyoncé в iTunes Store. Альбом был охарактеризован как «визуальный» по причине того, что каждая песня имеет своё видео. Песня «Drunk in Love» была выбрана главным синглом в США и в остальном мире."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
-          },
-          "Gallery": [
-            "./images/beyonce-1.jpg",
-            "./images/beyonce-2.jpg",
-            "./images/beyonce-3.jpg",
-            "./images/beyonce-4.jpg",
-            "./images/beyonce-5.jpg",
-            "./images/beyonce-6.jpg"
-          ]
-        },
-        {
-          "Name": "Skrillex",
-          // Скриллекс
-          "Years": "1988 - present",
-          // "1988 - наст. время"
-          "ShortInfo": "Sonny John Moore known professionally as Skrillex, is an American DJ, music producer and a frontman of the rock group From First to Last.",
-          // Сонни Джон Мур, более известный по сценическому псевдониму Скриллекс — американский музыкант, продюсер, диджей, а также фронтмен рок-группы From First to Last.
-          "QuickFacts": [
-            "1988 - present", 
-            "Los Angeles, California, U.S.",
-            "Dubstep, brostep, EDM, electro house", 
-            "Quest For Fire",
-            "Bangarang" 
-          ],
-          //[
-          // "1988 - наст. время",
-          // "Los Angeles, California, U.S.",
-          // "EDM, электро-хаус, дабстеп, трэп", 
-          // "Quest For Fire", 
-          // "Bangarang" 
-          //]
-          "Biography": [
-            {
-              "date": "2004",
-              "info": "In 2004, Moore contacted Matt Good of From First to Last about playing guitar for the band on their debut album. After flying out to Georgia, Moore was heard singing by three studio producers, Derrick Thomas, Eric Dale, and McHale Butler, and was then made lead singer, with Good playing guitar. In June 2004, Epitaph Records released the band's first full-length record with their new bandmate, Dear Diary, My Teen Angst Has a Body Count."
-            },
-            //{
-            //  "date": "2004",
-            //  "info": "В 2004 году, Мур договорился с Мэттом Гудом из From First to Last о том, чтобы поиграть на гитаре для их дебютного альбома. После вылета в Джорджию Сонни был услышан тремя продюсерами, Дерриком Томасом, Эриком Дэйлом и Макхэйлом Батлером, и стал солистом группы, а Гуд играл на гитаре. В июне 2004 года, Epitaph Records выпустили первый полный альбом с новым участником, «Dear Diary, My Teen Angst Has a Body Count»."
-            //},
-            {
-              "date": "2008",
-              "info": "In February 2008, Alternative Press Magazine announced the second annual AP Tour, with All Time Low, The Rocket Summer, The Matches, and Forever the Sickest Kids, as well as Sonny Moore. The tour started in Houston, Texas on March 14 and went through North America, ending in Cleveland, Ohio on May 2, with the majority of the shows being sold out."
-            },
-            //{
-            //  "date": "2008",
-            //  "info": "В феврале 2008 года Alternative Press Magazine объявил о втором ежегодном AP Tour c All Time Low, The Rocket Summer, The Matches, Forever the Sickest Kids, а также с Сонни Муром. Все группы, участвующие в туре, поместили на обложку Alternative Press Magazine с чартом 100 Bands You Need to Know и взяли у них интервью в радио-подкасте Alternative Press Podcast."
-            //},
-            {
-                "date": "2009",
-                "info": "On April 7, 2009, he released Gypsyhook, a digital EP, which featured three songs and four remixes. Also included was \"海水\" (\"Kaisui\"), a Japanese version of \"Mora\". Physical copies of the EP were available at his shows."
-            }
-            //{
-            //  "date": "2009",
-            //  "info": "7 апреля 2009 года, Мур выпустил EP (мини-альбом) Gypsyhook, цифровой альбом, состоящий из трех песен и четырёх ремиксов. Также была японская версия песни Mora под названием 海水 (Kai Sui)."
-            //}
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
-          },
-          "Gallery": [
-            "./images/skrillex-1.jpg",
-            "./images/skrillex-2.jpg",
-            "./images/skrillex-3.jpg",
-            "./images/skrillex-4.jpg",
-            "./images/skrillex-5.jpg",
-            "./images/skrillex-6.jpg"
-          ]
-        },
-        {
-          "Name": "Salvatore Ganacci",
-          // Сальваторе Ганаччи
-          "Years": "1986 - present",
-          // "1986 - наст. время"
-          "ShortInfo": "Emir Kobilić, known professionally as Salvatore Ganacci, is a Bosnian-Swedish DJ and record producer. His performances at Tomorrowland in 2018 and 2019 became viral, as did the music video for his song \"Horse\".",
-          // Эмир Кобилич, профессионально известный как Сальваторе Ганаччи, — боснийско-шведский диджей и продюсер. Его выступления на Tomorrowland в 2018 и 2019 годах стали вирусными, как и клип на его песню «Horse».
-          "QuickFacts": [
-            "1986 - present", 
-            "Sarajevo, SFR Yugoslavia, SR Bosnia and Herzegovina",
-            "EDM, moombahton, trap, dancehall", 
-            "Culturally Appropriate",
-            "Step-Grandma" 
-          ],
-          //[
-          // "1986 - наст. время",
-          // "Сараево, СФР Югославия, СР Босния и Герцеговина",
-          // "EDM, мумбахтон, трэп, дэнсхолл", 
-          // "Culturally Appropriate", 
-          // "Step-Grandma" 
-          //]
-          "Biography": [
-            {
-              "date": "2010",
-              "info": "Ganacci began studying at Musikmakarna in 2010, in Örnsköldsvik, Sweden. He went on to work as a producer. In 2013, Ganacci, together with Sanjin, released his first song, called \"Zlatan\", inspired by Swedish footballer Zlatan Ibrahimović. In the song itself, he used another alias, called \"Youthman\". In the following year, Ganacci released his collaboration with Sanjin, and Jillionaire of Major Lazer called \"Fresh\"."
-            },
-            //{
-            //  "date": "2019",
-            //  "info": "Песня Ганаччи «Horse» была выпущена на аудио и видео в 2019 году на лейбле Owsla, совладельцем которого является Skrillex. Позже он получил признание на Berlin Music Video Awards и Grammis. Музыкальное видео на песню «Horse» стало абсолютным победителем премии Berlin Music Video Awards в 2020 году, а также получило награду в категории «Лучшая концепция»."
-            //},
-            {
-                "date": "2018",
-                "info": "In 2018, Ganacci performed at Tomorrowland Festival in Belgium and received attention due to his dancing and comedic antics. Journalists from publications such as Billboard, Mixmag and NME gave his performance rave reviews and clips went viral on the internet."
-            },
-            //{
-            //  "date": "2018",
-            //  "info": "В 2018 году Ганаччи выступил на фестивале Tomorrowland в Бельгии и привлек внимание своими танцевальными и комедийными выходками. Журналисты таких изданий, как Billboard, Mixmag и NME, дали восторженные отзывы о его выступлении, а клипы стали вирусными в Интернете."
-            //},
-            //{
-            //  "date": "2010",
-            //  "info": "Ганаччи начал учиться в Musikmakarna в 2010 году в Орншельдсвике, Швеция. Он продолжал работать продюсером. В 2013 году Ганаччи вместе с Санжиным выпустил свою первую песню под названием «Златан», вдохновленную шведским футболистом Златаном Ибрагимовичем. В самой песне он использовал еще один псевдоним, названный «Юноша». В следующем году Ганаччи выпустил свою совместную работу с Sanjin и Jillionaire Major Lazer под названием «Fresh»."
-            //}
-            {
-              "date": "2019",
-              "info": "Ganacci's song \"Horse\" was released on audio and video in 2019, by Owsla, a label co-owned by Skrillex. It later garnered recognition at the Berlin Music Video Awards and the Grammis. The music video for \"Horse\" was the overall winner of the Berlin Music Video Awards in 2020, also winning the award for the \"Best Concept\" category."
-            }
-
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
-          },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
-          },
-          "Gallery": [
-            "./images/salvatore-ganacci-1.jpg",
-            "./images/salvatore-ganacci-2.jpg",
-            "./images/salvatore-ganacci-3.jpg",
-            "./images/salvatore-ganacci-4.jpg",
-            "./images/salvatore-ganacci-5.jpg",
-            "./images/salvatore-ganacci-6.jpg"
-          ]
-        
-        
-        },
-        {
-          "Name": "The Weeknd",
-          // Зе Викенд
-          "Years": "1990 - present",
-          // "1990 - наст. время"
-          "ShortInfo": "Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer, songwriter, and record producer. He is noted for his unconventional music production, artistic reinventions, and his signature use of the falsetto register.",
-          // Эйбел Макконен Тесфайе, также известный как The Weeknd — канадский певец, автор песен и актер. Известный своей звуковой универсальностью и мрачным лиризмом, его музыка исследует эскапизм, романтику и меланхолию и часто вдохновляется личным опытом.
-          "QuickFacts": [
-            "1990 - present", 
-            "Toronto, Ontario, Canada",
-            "Pop, R&B, alternative R&B, new wave", 
-            "Beauty Behind The Madness",
-            "Blinding Lights" 
-          ],
-          //[
-          // "1990 - наст. время",
-          // "Торонто, Онтарио, Канада",
-          // "R&B, альтернативный R&B, поп, нью-вейв", 
-          // "Beauty Behind The Madness", 
-          // "Blinding Lights" 
-          //]
-          "Biography": [
-            {
-              "date": "August 2009",
-              "info": "In August 2009, Tesfaye began anonymously releasing music on YouTube. The following year, he met Jeremy Rose, a producer who had an idea for a dark contemporary R&B project. After initially trying to pitch the idea to musician Curtis Santiago, Rose played one of his instrumentals for Tesfaye, who freestyle rapped over it."
-            },
-            //{
-            //  "date": "Август 2009",
-            //  "info": "В августе 2009 года Эйбел начал анонимно публиковать музыку на YouTube. В следующем году он познакомился с Джереми Роузом, продюсером, у которого была идея для мрачного современного R&B проекта. После первоначальной попытки передать идею музыканту Кертису Сантьяго, Роуз сыграл один из его инструменталов для Эйбела, который фристайлом прочитал рэп поверх него."
-            //},
-            {
-                "date": "November 13, 2012",
-                "info": "On November 13, 2012, Tesfaye released Trilogy, a compilation album consisting of re-mixed and remastered versions of his 2011 mixtapes and three additional tracks. The album officially credited Rose as a producer and writer on the three songs from House of Balloons for which he did not initially receive credit. Trilogy debuted at number four on the US Billboard 200 with first-week sales of 86,000 copies."
-            },
-            //{
-            //  "date": "13 ноября, 2012",
-            //  "info": "13 ноября 2012 года Эйбел выпустил «Trilogy», сборник, состоящий из повторно сведенных и ремастированных версий его микстейпов 2011 года и трех дополнительных треков. Альбом официально приписал Роузу роль продюсера и автора трех песен из «House of Balloons», за которые он изначально не получил титров . «Trilogy» дебютировала на четвертой строчке американского Billboard 200 с продажами за первую неделю в 86 000 копий."
-            //},
-            //{
-
+          {
+            "Name": "Donald Glover",
+            "Years": "1983 - present",
+            "ShortInfo": "Donald McKinley Glover Jr., also known by his stage name Childish Gambino, is an American actor, comedian, singer, rapper, writer, director, and producer",
+            "QuickFacts": [
+              "1983 - present", 
+              "Edwards Air Force Base, California, U.S.",
+              "Hip hop, funk, R&B, soul", 
+              "Camp",
+              "This is America" 
+            ],
+            "Biography": [
               {
-                "date": "May 27, 2015",
-                "info": "On May 27, 2015, Tesfaye released the second single from Beauty Behind the Madness, \"The Hills\". The single debuted at number twenty on the Billboard Hot 100, and peaked at number one, becoming Tesfaye's first number-one single. In June 2019, \"The Hills\" was certified diamond by the RIAA, marking Tesfaye's first diamond-certified record."
+                "date": "March 2011",
+                "info": "His first extended play, titled EP, was released as a free digital download in March 2011. A music video for the song \"Freaks and Geeks\" was released in that month and Glover hosted the MTVU Woodie Awards at South By Southwest. Glover commenced his nationwide IAMDONALD Tour in April. The tour was a one-man live show that consisted of rap, comedy, and video segments."
               },
-              //  "date": "27 мая, 2015",
-              //  "info": "27 мая 2015 года Эйбел выпустил второй сингл с альбома «Beauty Behind the Madness» «The Hills». Сингл дебютировал на двадцатой строчке Billboard Hot 100 и достиг пика на первой строчке, став первым синглом Эйбела номер один. В июне 2019 года «The Hills» был сертифицирован RIAA как бриллиантовый, что стало первым синглом Эйбела, сертифицированным как бриллиантовый."
-              //},
               {
-                "date": "2020",
-                "info": "On February 19, 2020, Tesfaye revealed that his fourth studio album would be titled After Hours, and would be released on March 20. He also released the album's title track as a promotional single. On March 7, he made his third appearance as a musical guest on Saturday Night Live, alongside actor Daniel Craig. On the show, he performed \"Blinding Lights\" and debuted the track \"Scared to Live\"."
+                "date": "September 2016",
+                "info": "Glover held three musical performances, known as the \"Pharos Experience\", in Joshua Tree, California, where he debuted songs from his third studio album \"Awaken, My Love!\". The album was released in December, charting at number five on the Billboard 200 and was later certified platinum accumulating 1,000,000 certified units. It was considered a bold departure from his usual hip hop style as it primarily featured Glover singing rather than rapping, and saw him draw influences from psychedelic soul, funk and R&B music, particularly of the funk band Funkadelic."
               },
-              //  "date": "2020",
-              //  "info": "19 февраля 2020 года Эйбел сообщил, что его четвертый студийный альбом будет называться «After Hours» и выйдет 20 марта. Он также выпустил заглавный трек альбома в качестве промо-сингла. 7 марта он в третий раз появился в качестве музыкального гостя в Saturday Night Live вместе с актером Дэниелом Крейгом. На шоу он исполнил «Blinding Lights» и дебютировал с треком «Scared to Live»."
-              //},
               {
-                "date": "January 7, 2022",
-                "info": "Tesfaye released his fifth studio album Dawn FM on January 7, 2022. Upon release, the album debuted at number two on the Billboard 200 with 148,000 units, marking Tesfaye's eighth top ten entry and his second non-consecutive album to debut at number two. He also broke the record for the most simultaneous entries for a male soloist on the Billboard Global 200, with twenty-four songs on the chart. In addition to \"Take My Breath\", Dawn FM was supported by the singles \"Sacrifice\" and \"Out of Time\"."
+                  "date": "May 2018",
+                  "info": "Glover signed with RCA Records in January 2018, which Glover called \"a necessary change of pace\". In May 2018, he released a single titled \"This Is America\" while performing as both host and musical guest on Saturday Night Live. The song debuted at number one, becoming both Glover's first number one and top ten single in the United States. It features him singing and rapping, drawing influence from trap music. The lyrics addressed a variety of topics including gun violence and being black in the United States, while its controversial video, directed by Japanese-American filmmaker and frequent collaborator Hiro Murai, showed Glover with a firearm shooting at a choir."
+              },
+              {
+                "date": "March 15, 2020",
+                "info": "On March 15, 2020, Glover streamed his surprise fourth album on his website Donald Glover Presents, where it played on a loop for twelve hours until it was taken down. 21 Savage and Ariana Grande feature on the album. The album was released on digital services the following week under the name 3.15.20. It was well received by music critics and debuted at number 13 on the Billboard 200."
               }
-              //  "date": "7 января, 2022",
-              //  "info": "Эйбел выпустил свой пятый студийный альбом «Dawn FM» 7 января 2022 года. После выпуска альбом дебютировал на второй строчке Billboard 200 тиражом 148 000 экземпляров, что стало восьмой записью Эйбела в десятке лучших и его вторым альбомом, дебютировавшим на второй строчке подряд. Он также побил рекорд по количеству одновременных записей для солиста-мужчины в Billboard Global 200, с двадцатью четырьмя песнями в чарте. В дополнение к «Take My Breath», «Dawn FM» был поддержан синглами «Sacrifice» и «Out of Time»."
-              //}
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
+            },
+            "Gallery": [
+              "./images/dong-lover-1.jpg",
+              "./images/dong-lover-2.jpg",
+              "./images/dong-lover-3.jpg",
+              "./images/dong-lover-4.jpg",
+              "./images/dong-lover-5.jpg",
+              "./images/dong-lover-6.jpg",
+              "./images/dong-lover-7.jpg",
+              "./images/dong-lover-8.jpg"
+            ]
+          },
+          {
+            "Name": "Michael Jackson",
+            "Years": "1958 - 2009",
+            "ShortInfo": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Known as the \"King of Pop\", he is regarded as one of the most significant cultural figures of the 20th century.",
+            "QuickFacts": [
+              "1958 - 2009", 
+              "Gary, Indiana, US",
+              "Pop, soul, rhythm and blues, funk, rock, disco", 
+              "Thriller",
+              "Billie Jean" 
+            ],
+            "Biography": [
+              {
+                "date": "1964-1965",
+                "info": "In 1964, Michael and Marlon joined the Jackson Brothers — a band formed by their father which included Jackie, Tito and Jermaine — as backup musicians playing congas and tambourine. Later in 1965, Michael began sharing lead vocals with Jermaine, and the group's name was changed to the Jackson 5. The Jackson 5 recorded several songs for a Gary record label, Steeltown Records; their first single, \"Big Boy\", was released in 1968."
+              },
+              {
+                "date": "1982",
+                "info": "Jackson's sixth album, Thriller, was released in late 1982. It was the bestselling album worldwide in 1983, and became the bestselling album of all time in the US and the best-selling album of all time worldwide, selling an estimated 70 million copies. It topped the Billboard 200 chart for 37 weeks and was in the top 10 of the 200 for 80 consecutive weeks. It was the first album to produce seven Billboard Hot 100 top-10 singles, including \"Billie Jean\", \"Beat It\", and \"Wanna Be Startin' Somethin'\"."
+              },
+              {
+                  "date": "1991",
+                  "info": "In 1991, he released his eighth album, Dangerous, co-produced with Teddy Riley. It was certified eight times platinum in the US, and by 2018 had sold 32 million copies worldwide. In the US, the first single, \"Black or White\", was the album's highest-charting song; it was number one on the Billboard Hot 100 for seven weeks and achieved similar chart performances worldwide. The second single, \"Remember the Time\" peaked at number three on the Billboard Hot 100 singles chart."
+              },
+              {
+                "date": "June 1995",
+                "info": "In June 1995, Jackson released the double album HIStory: Past, Present and Future, Book I. The first disc, HIStory Begins, is a greatest hits album (reissued in 2001 as Greatest Hits: HIStory, Volume I). The second disc, HIStory Continues, contains 13 original songs and two cover versions. The album debuted at number one on the charts and has been certified for eight million shipments in the US. It is the bestselling multi-disc album of all time, with 20 million copies (40 million units) sold worldwide."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
+            },
+            "Gallery": [
+              "./images/michael-jackson-1.jpg",
+              "./images/michael-jackson-2.jpg",
+              "./images/michael-jackson-3.jpg",
+              "./images/michael-jackson-4.jpg",
+              "./images/michael-jackson-5.jpg",
+              "./images/michael-jackson-6.jpg"
+            ]
+          },
+          {
+            "Name": "Katy Perry",
+            "Years": "1984 - present",
+            "ShortInfo": "Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter and television personality. She is known for her influence on modern pop music and her camp style",
+            "QuickFacts": [
+              "1984 - present", 
+              "Santa Barbara, California, U.S.",
+              "Pop, rock, disco", 
+              "One Of The Boys",
+              "Dark Horse" 
+            ],
+            "Biography": [
+              {
+                "date": "May 7, 2010",
+                "info": "After serving as a guest judge on American Idol, Perry released \"California Gurls\" featuring Snoop Dogg on May 7, 2010. The song was the lead single from her third studio album, Teenage Dream, and reached number one on the Billboard Hot 100 in June. She also served as a guest judge on British The X Factor later that month before releasing the album's second single, \"Teenage Dream\", in July. \"Teenage Dream\" reached number one on the Billboard Hot 100 in September."
+              },
+              {
+                "date": "November 2012",
+                "info": "In November 2012, Perry began work on her fourth album, Prism. She told Billboard, \"I know exactly the record I want to make next. I know the artwork, the coloring and the tone\" and \"I even know what type of tour I'm doing next. I'll be very pleased if the vision I have in my head becomes a reality.\""
+              },
+              {
+                  "date": "2016",
+                  "info": "Perry started writing songs for her new album in June 2016, and recorded an anthem for NBC Sports's coverage of the 2016 Summer Olympics titled \"Rise\", which was released the following month. Perry chose to release it as a standalone track rather than save it for her album \"because now more than ever, there is a need for our world to unite\"."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
+            },
+            "Gallery": [
+              "./images/katy-perry-1.jpg",
+              "./images/katy-perry-2.jpg",
+              "./images/katy-perry-3.jpg",
+              "./images/katy-perry-4.jpg",
+              "./images/katy-perry-5.jpg"
+            ]
+          },
+          {
+            "Name": "Nicki Minaj",
+            "Years": "1982 - present",
+            "ShortInfo": "Onika Tanya Maraj-Petty, known professionally as Nicki Minaj, is a Trinidadian-born rapper, singer, and songwriter based in the United States.",
+            "QuickFacts": [
+              "1982 - present", 
+              "Port of Spain, Trinidad and Tobago",
+              "Hip hop, pop", 
+              "Pink Friday",
+              "Starships" 
+            ],
+            "Biography": [
+              {
+                "date": "November 19, 2010",
+                "info": "Pink Friday was released on November 19, 2010, debuting at number two and later reaching number one on the Billboard 200, with first-week sales of 375,000 copies. It had the highest sales week for a female rap album this century and second highest sales week overall after Lauryn Hill's The Miseducation of Lauryn Hill (1998). Upon release, the album received generally positive reviews from critics. The album was certified platinum in December, with it becoming the first album by a solo female rapper to go platinum in seven years."
+              },
+              {
+                "date": "December 15, 2014",
+                "info": "The Pinkprint was officially released on December 15, 2014, and debuted at number two in the U.S, with first week sales of 244,000 equivalent units (198,000 in pure album sales and 46,000 combined album-equivalent units and streams). Upon release, critics praised the production and personal lyrics."
+              },
+              {
+                  "date": "April 12, 2018",
+                  "info": "After a social media hiatus, Minaj released two singles from her fourth studio album Queen. She released \"Chun-Li\" and \"Barbie Tingz\" simultaneously on April 12, 2018, with both reaching number ten and number twenty-five in the U.S. respectively. She performed \"Chun-Li\" on Saturday Night Live and the 2018 BET Awards. While \"Chun Li\" appears on the tracklist of the album, \"Barbie Tingz\" is only included on the Target version of the album."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
+            },
+            "Gallery": [
+              "./images/nicki-minaj-1.jpg",
+              "./images/nicki-minaj-2.jpg",
+              "./images/nicki-minaj-3.jpg",
+              "./images/nicki-minaj-4.jpg",
+              "./images/nicki-minaj-5.jpg",
+              "./images/nicki-minaj-6.jpg"
+            ]
+          },
+          {
+            "Name": "Aurora",
+            "Years": "1996 - present",
+            "ShortInfo": "Aurora Aksnes, known mononymously as Aurora (stylized in all caps), is a Norwegian singer, songwriter and record producer. She began writing her first songs and learning dance at the age of six.",
+            "QuickFacts": [
+              "1996 - present", 
+              "Stavanger, Norway",
+              "Art pop, Nordic folk, synth-pop, electropop", 
+              "The Gods We Can Touch",
+              "Runaway" 
+            ],
+            "Biography": [
+              {
+                "date": "2012-2015",
+                "info": "Aurora self-released the song \"Puppet\" as her debut single in December 2012 under her birth name. Aurora then set about working on her songwriting for around a year before giving her \"first proper live performance\" at Nabovarsel Minifestival in Bergen. Her next single, \"Running with the Wolves\" was released in April 2015, and its music video was released two months later. The song gained attention from BBC Radio station. It was released alongside the announcement of the release of her debut EP Running with the Wolves."
+              },
+              {
+                "date": "2016",
+                "info": "When All My Demons Greeting Me as a Friend debuted, Aurora said that it was \"the first album of many\" she was planning to release. As of 12 May 2016, after coming back from her European tour, the singer announced that she was ready to begin writing and producing more material, which will form her second studio album. She stated in a Facebook event that she has fifteen demo songs and has written a thousand songs/poems."
+              },
+              {
+                  "date": "May 2020",
+                  "info": "Aurora released the single \"Exist for Love\" in May 2020, which was presented as her first love song ever with a self-directed music video. The song was made during the COVID-19 lockdown in collaboration with Isobel Waller-Bridge, who composed the string arrangements. It was the first glimpse into what she described as \"a new era\" in her career, with the upcoming release of a new album."
+              }
 
-          ],
-          "Places": {
-            "Link": "", 
-            "Desription": ""
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
+            },
+            "Gallery": [
+              "./images/aurora-1.jpg",
+              "./images/aurora-2.jpg",
+              "./images/aurora-3.jpg",
+              "./images/aurora-4.jpg",
+              "./images/aurora-5.jpg",
+              "./images/aurora-6.jpg",
+              "./images/aurora-7.jpg"
+            ]
           },
-          "Video": {
-            "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"
+          {
+            "Name": "Kanye West",
+            "Years": "1977 - present",
+            "ShortInfo": "Ye, better known as Kanye West, is an American rapper, singer, songwriter, record producer, and fashion designer. West has won 24 Grammy Awards.",
+            "QuickFacts": [
+              "1977- present", 
+              "Atlanta, Georgia, U.S.",
+              "Hip hop, progressive rap, pop, art pop, gospel", 
+              "Graduation",
+              "Flashing Lights" 
+            ],
+            "Biography": [
+              {
+                "date": "mid-1990s",
+                "info": "West began his early production career in the mid-1990s, creating beats primarily for burgeoning local artists in the Chicago area. He received his first official production credits at age nineteen, when he produced eight tracks on Down to Earth, the 1996 debut album of Chicago-based underground rapper Grav. In 1998, West was the first producer signed to the management-production company Hip Hop Since 1978, founded by Gee Roberson and Kyambo \"Hip-Hop\" Joshua."
+              },
+              {
+                "date": "2004",
+                "info": "The College Dropout received near-universal critical acclaim, was voted the top album of the year by two major music publications, and has consistently been ranked among the great hip-hop works and debut albums by artists. The College Dropout was certified triple platinum in the US, and garnered West 10 Grammy nominations, including Album of the Year, and Best Rap Album (which it received)."
+              },
+              {
+                  "date": "2007",
+                  "info": "West's third studio album, Graduation, garnered major publicity when its release date pitted West in a sales competition against rapper 50 Cent's Curtis. Upon their September 2007 releases, Graduation outsold Curtis by a large margin, debuting at number one on the U.S. Billboard 200 chart and selling 957,000 copies in its first week. Graduation continued the string of critical and commercial successes by West, and the album's lead single, \"Stronger\", garnered his third number-one hit."
+              },
+              {
+                "date": "2016",
+                "info": "West announced in January 2016 that SWISH would be released on February 11, and later that month, released new songs \"Real Friends\" and a snippet of \"No More Parties in LA\" with Kendrick Lamar. On January 26, 2016, West revealed he had renamed the album from SWISH to Waves. In the weeks leading up to the album's release, West became embroiled in several Twitter controversies. Several days ahead of its release, West again changed the title, this time to The Life of Pablo."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
+            },
+            "Gallery": [
+              "./images/kanye-west-1.jpg",
+              "./images/kanye-west-2.jpg",
+              "./images/kanye-west-3.jpg",
+              "./images/kanye-west-4.jpg",
+              "./images/kanye-west-5.jpg",
+              "./images/kanye-west-6.jpg"
+            ]
           },
-          "Gallery": [
-            "./images/abel-tesfaye-1.jpg",
-            "./images/abel-tesfaye-2.jpg",
-            "./images/abel-tesfaye-3.jpg",
-            "./images/abel-tesfaye-4.jpg",
-            "./images/abel-tesfaye-5.jpg",
-            "./images/abel-tesfaye-6.jpg",
-            "./images/abel-tesfaye-7.jpg",
-            "./images/abel-tesfaye-8.jpg",
-            "./images/abel-tesfaye-9.jpg",
-            "./images/abel-tesfaye-10.jpg"
-          ]
-        
-        
-        }
-        
->>>>>>> refs/remotes/origin/main
-    ]
+          {
+            "Name": "Taylor Swift",
+            "Years": "1989 - present",
+            "ShortInfo": "Taylor Alison Swift is an American singer-songwriter. Recognized for her songwriting, musical versatility, artistic reinventions, and influence on the music industry, she is a prominent cultural figure of the 21st century.",
+            "QuickFacts": [
+              "1989 - present", 
+              "West Reading, Pennsylvania, U.S.",
+              "Pop, country, folk, rock, alternative", 
+              "1989",
+              "Shake It Off" 
+            ],
+            "Biography": [
+              {
+                "date": "November 11, 2008",
+                "info": "Swift's second studio album, Fearless, was released on November 11, 2008, in North America, and in March 2009 in other markets. Critics lauded Swift's honest and vulnerable songwriting in contrast to other teenage singers. Five singles were released in 2008–2009: \"Love Story\", \"White Horse\", \"You Belong with Me\", \"Fifteen\", and \"Fearless\". The first single peaked at number four on the Billboard Hot 100 and number one in Australia."
+              },
+              {
+                "date": "2010",
+                "info": "In August 2010, Swift released \"Mine\", the lead single from her third studio album, Speak Now. It entered the Hot 100 at number three. Swift wrote the album alone and co-produced every track. It was released on October 25, 2010, opening atop the Billboard 200 with over one million copies sold. It became the fastest-selling digital album by a female artist, with 278,000 downloads in a week."
+              },
+              {
+                  "date": "2014",
+                  "info": "In March 2014, Swift began living in New York City. She hired Tree Paine as her publicist, and worked on her fifth studio album, 1989, with producers Jack Antonoff, Max Martin, Shellback, Imogen Heap, Ryan Tedder, and Ali Payami. She promoted the album extensively, including inviting fans to secret album-listening sessions. 1989 was released on October 27, 2014, and opened atop the Billboard 200 with 1.28 million copies sold."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
+            },
+            "Gallery": [
+              "./images/taylor-swift-1.jpg",
+              "./images/taylor-swift-2.jpg",
+              "./images/taylor-swift-3.jpg",
+              "./images/taylor-swift-4.jpg",
+              "./images/taylor-swift-5.jpg",
+              "./images/taylor-swift-6.jpg"
+            ]
+          },
+          {
+            "Name": "Beyoncé",
+            "Years": "1981 - present",
+            "ShortInfo": "Beyoncé Giselle Knowles-Carter is an American singer, songwriter and businesswoman. Known as \"Queen Bey\", she has been recognized for her boundary-pushing artistry, vocals, and performances.",
+            "QuickFacts": [
+              "1981 - present", 
+              "Houston, Texas, U.S.",
+              "R&B, pop, hip hop", 
+              "RENAISSANCE",
+              "Crazy In Love" 
+            ],
+            "Biography": [
+              {
+                "date": "June 2003",
+                "info": "On June 14, 2003, Beyoncé premiered songs from her first solo album Dangerously in Love during her first solo concert and the pay-per-view television special, \"Ford Presents Beyoncé Knowles, Friends & Family, Live From Ford's 100th Anniversary Celebration in Dearborn, Michigan\". The album was released on June 24, 2003, after Michelle Williams and Kelly Rowland had released their solo efforts. The album sold 317,000 copies in its first week, debuted atop the Billboard 200, and has since sold 11 million copies worldwide."
+              },
+              {
+                "date": "September 4, 2006",
+                "info": "Beyoncé's second solo album B'Day was released on September 4, 2006, in the US, to coincide with her twenty-fifth birthday. It sold 541,000 copies in its first week and debuted atop the Billboard 200, becoming Beyoncé's second consecutive number-one album in the United States. The album's lead single \"Déjà Vu\", featuring Jay-Z, reached the top five on the Billboard Hot 100 chart."
+              },
+              {
+                  "date": "2013",
+                  "info": "On December 13, 2013, Beyoncé unexpectedly released her eponymous fifth studio album \"Beyoncé\" on the iTunes Store without any prior announcement or promotion. The album debuted atop the Billboard 200 chart, giving Beyoncé her fifth consecutive number-one album in the US."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
+            },
+            "Gallery": [
+              "./images/beyonce-1.jpg",
+              "./images/beyonce-2.jpg",
+              "./images/beyonce-3.jpg",
+              "./images/beyonce-4.jpg",
+              "./images/beyonce-5.jpg",
+              "./images/beyonce-6.jpg"
+            ]
+          },
+          {
+            "Name": "Skrillex",
+            "Years": "1988 - present",
+            "ShortInfo": "Sonny John Moore known professionally as Skrillex, is an American DJ, music producer and a frontman of the rock group From First to Last.",
+            "QuickFacts": [
+              "1988 - present", 
+              "Los Angeles, California, U.S.",
+              "Dubstep, brostep, EDM, electro house", 
+              "Quest For Fire",
+              "Bangarang" 
+            ],
+            "Biography": [
+              {
+                "date": "2004",
+                "info": "In 2004, Moore contacted Matt Good of From First to Last about playing guitar for the band on their debut album. After flying out to Georgia, Moore was heard singing by three studio producers, Derrick Thomas, Eric Dale, and McHale Butler, and was then made lead singer, with Good playing guitar. In June 2004, Epitaph Records released the band's first full-length record with their new bandmate, Dear Diary, My Teen Angst Has a Body Count."
+              },
+              {
+                "date": "2008",
+                "info": "In February 2008, Alternative Press Magazine announced the second annual AP Tour, with All Time Low, The Rocket Summer, The Matches, and Forever the Sickest Kids, as well as Sonny Moore. The tour started in Houston, Texas on March 14 and went through North America, ending in Cleveland, Ohio on May 2, with the majority of the shows being sold out."
+              },
+              {
+                  "date": "2009",
+                  "info": "On April 7, 2009, he released Gypsyhook, a digital EP, which featured three songs and four remixes. Also included was \"海水\" (\"Kaisui\"), a Japanese version of \"Mora\". Physical copies of the EP were available at his shows."
+              }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
+            },
+            "Gallery": [
+              "./images/skrillex-1.jpg",
+              "./images/skrillex-2.jpg",
+              "./images/skrillex-3.jpg",
+              "./images/skrillex-4.jpg",
+              "./images/skrillex-5.jpg",
+              "./images/skrillex-6.jpg"
+            ]
+          },
+          {
+            "Name": "Salvatore Ganacci",
+            "Years": "1986 - present",
+            "ShortInfo": "Emir Kobilić, known professionally as Salvatore Ganacci, is a Bosnian-Swedish DJ and record producer. His performances at Tomorrowland in 2018 and 2019 became viral, as did the music video for his song \"Horse\".",
+            "QuickFacts": [
+              "1986 - present", 
+              "Sarajevo, SFR Yugoslavia, SR Bosnia and Herzegovina",
+              "EDM, moombahton, trap, dancehall", 
+              "Culturally Appropriate",
+              "Step-Grandma" 
+            ],
+            "Biography": [
+              {
+                "date": "2010",
+                "info": "Ganacci began studying at Musikmakarna in 2010, in Örnsköldsvik, Sweden. He went on to work as a producer. In 2013, Ganacci, together with Sanjin, released his first song, called \"Zlatan\", inspired by Swedish footballer Zlatan Ibrahimović. In the song itself, he used another alias, called \"Youthman\". In the following year, Ganacci released his collaboration with Sanjin, and Jillionaire of Major Lazer called \"Fresh\"."
+              },
+              {
+                  "date": "2018",
+                  "info": "In 2018, Ganacci performed at Tomorrowland Festival in Belgium and received attention due to his dancing and comedic antics. Journalists from publications such as Billboard, Mixmag and NME gave his performance rave reviews and clips went viral on the internet."
+              },
+              {
+                "date": "2019",
+                "info": "Ganacci's song \"Horse\" was released on audio and video in 2019, by Owsla, a label co-owned by Skrillex. It later garnered recognition at the Berlin Music Video Awards and the Grammis. The music video for \"Horse\" was the overall winner of the Berlin Music Video Awards in 2020, also winning the award for the \"Best Concept\" category."
+              }
+
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
+            },
+            "Gallery": [
+              "./images/salvatore-ganacci-1.jpg",
+              "./images/salvatore-ganacci-2.jpg",
+              "./images/salvatore-ganacci-3.jpg",
+              "./images/salvatore-ganacci-4.jpg",
+              "./images/salvatore-ganacci-5.jpg",
+              "./images/salvatore-ganacci-6.jpg"
+            ]
+          },
+          {
+            "Name": "The Weeknd",
+            "Years": "1990 - present",
+            "ShortInfo": "Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer, songwriter, and record producer. He is noted for his unconventional music production, artistic reinventions, and his signature use of the falsetto register.",
+            "QuickFacts": [
+              "1990 - present", 
+              "Toronto, Ontario, Canada",
+              "Pop, R&B, alternative R&B, new wave", 
+              "Beauty Behind The Madness",
+              "Blinding Lights" 
+            ],
+            "Biography": [
+              {
+                "date": "August 2009",
+                "info": "In August 2009, Tesfaye began anonymously releasing music on YouTube. The following year, he met Jeremy Rose, a producer who had an idea for a dark contemporary R&B project. After initially trying to pitch the idea to musician Curtis Santiago, Rose played one of his instrumentals for Tesfaye, who freestyle rapped over it."
+              },
+              {
+                  "date": "November 13, 2012",
+                  "info": "On November 13, 2012, Tesfaye released Trilogy, a compilation album consisting of re-mixed and remastered versions of his 2011 mixtapes and three additional tracks. The album officially credited Rose as a producer and writer on the three songs from House of Balloons for which he did not initially receive credit. Trilogy debuted at number four on the US Billboard 200 with first-week sales of 86,000 copies."
+              },
+                {
+                  "date": "May 27, 2015",
+                  "info": "On May 27, 2015, Tesfaye released the second single from Beauty Behind the Madness, \"The Hills\". The single debuted at number twenty on the Billboard Hot 100, and peaked at number one, becoming Tesfaye's first number-one single. In June 2019, \"The Hills\" was certified diamond by the RIAA, marking Tesfaye's first diamond-certified record."
+                },
+                {
+                  "date": "2020",
+                  "info": "On February 19, 2020, Tesfaye revealed that his fourth studio album would be titled After Hours, and would be released on March 20. He also released the album's title track as a promotional single. On March 7, he made his third appearance as a musical guest on Saturday Night Live, alongside actor Daniel Craig. On the show, he performed \"Blinding Lights\" and debuted the track \"Scared to Live\"."
+                },
+                {
+                  "date": "January 7, 2022",
+                  "info": "Tesfaye released his fifth studio album Dawn FM on January 7, 2022. Upon release, the album debuted at number two on the Billboard 200 with 148,000 units, marking Tesfaye's eighth top ten entry and his second non-consecutive album to debut at number two. He also broke the record for the most simultaneous entries for a male soloist on the Billboard Global 200, with twenty-four songs on the chart. In addition to \"Take My Breath\", Dawn FM was supported by the singles \"Sacrifice\" and \"Out of Time\"."
+                }
+            ],
+            "Places": {
+              "Link": "", 
+              "Desription": ""
+            },
+            "Video": {
+              "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"
+            },
+            "Gallery": [
+              "./images/abel-tesfaye-1.jpg",
+              "./images/abel-tesfaye-2.jpg",
+              "./images/abel-tesfaye-3.jpg",
+              "./images/abel-tesfaye-4.jpg",
+              "./images/abel-tesfaye-5.jpg",
+              "./images/abel-tesfaye-6.jpg",
+              "./images/abel-tesfaye-7.jpg",
+              "./images/abel-tesfaye-8.jpg",
+              "./images/abel-tesfaye-9.jpg",
+              "./images/abel-tesfaye-10.jpg"
+            ]
+          
+          
+          }
+          
+      ]
+  },
+  "ru": {
+    
+  }
+
 }

@@ -1,7 +1,11 @@
 import React from "react";
+import "./CommonText.tsx";
+import { ICommonText } from "./CommonTextValidation.ts";
 
-return (
-  <>
-  <p></p>
-  </>
-)
+function CommonText(props: ICommonText) {
+  return (
+    <p className="CommonText">{props.data}</p>
+  );
+}
+
+export default CommonText;

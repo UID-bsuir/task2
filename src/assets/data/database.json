@@ -34,7 +34,7 @@
       "MainPage": {
           "Header": {
               "Title": "Finally a place where music lives",
-              "SubInfo": "",
+              "SubInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
               "Button": "Move on to singers"
           },
           "ArtistOfTheDay": {

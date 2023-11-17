@@ -3,9 +3,7 @@
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px 0 100px;
-  background-color: #1a187c;
-  width: 1440px;
+  width: 100%;
 }
 
 .Menu-H {
@@ -33,3 +31,5 @@
 
 
 }
+
+

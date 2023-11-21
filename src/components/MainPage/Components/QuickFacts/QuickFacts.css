@@ -1,0 +1,17 @@
+.QuickFactsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.Fact {
+  display: flex;
+  gap: 20px;
+  align-items: center; 
+}
+
+.Fact p {
+  width: 300px;
+}

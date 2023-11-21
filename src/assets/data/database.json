@@ -39,16 +39,7 @@
           },
           "ArtistOfTheDay": {
               "Title": "Artist of the day",
-              "Name": "",
-              "ShortInfo": "",
-              "Button": "Learn More",
-              "QuickFacts": [ 
-                  "",
-                  "",
-                  "",
-                  "",
-                  ""
-              ]
+              "SubTitle": "Quick facts"
           },
           "ProjectInfo": {
               "Title": "Wanna know about the project?",
@@ -146,6 +137,7 @@
       "Artists":     
        [
           {
+            "ID": "kendricklamar",
             "Name": "Kendrick Lamar",
             "Years": "1987 - present",
             "ShortInfo": "American rapper, singer, and songwriter. Known as \"King Kendrick\", he is widely regarded as one of the most influential rappers of his generation.",
@@ -182,17 +174,18 @@
               "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
             },
             "Gallery": [
-              "./images/kendrick-lamar-1.jpg",
-              "./images/kendrick-lamar-2.jpg",
-              "./images/kendrick-lamar-3.jpg",
-              "./images/kendrick-lamar-4.jpg",
-              "./images/kendrick-lamar-5.jpg",
-              "./images/kendrick-lamar-6.jpg",
-              "./images/kendrick-lamar-7.jpg",
-              "./images/kendrick-lamar-8.jpg"
+              "/images/kendrick-lamar-1.jpg",
+              "/images/kendrick-lamar-2.jpg",
+              "/images/kendrick-lamar-3.jpg",
+              "/images/kendrick-lamar-4.jpg",
+              "/images/kendrick-lamar-5.jpg",
+              "/images/kendrick-lamar-6.jpg",
+              "/images/kendrick-lamar-7.jpg",
+              "/images/kendrick-lamar-8.jpg"
             ]
           },
           {
+            "ID": "donaldglover",
             "Name": "Donald Glover",
             "Years": "1983 - present",
             "ShortInfo": "Donald McKinley Glover Jr., also known by his stage name Childish Gambino, is an American actor, comedian, singer, rapper, writer, director, and producer",
@@ -240,6 +233,7 @@
             ]
           },
           {
+            "ID": "michaeljackson",
             "Name": "Michael Jackson",
             "Years": "1958 - 2009",
             "ShortInfo": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Known as the \"King of Pop\", he is regarded as one of the most significant cultural figures of the 20th century.",
@@ -285,6 +279,7 @@
             ]
           },
           {
+            "ID": "katyperry",
             "Name": "Katy Perry",
             "Years": "1984 - present",
             "ShortInfo": "Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter and television personality. She is known for her influence on modern pop music and her camp style",
@@ -325,6 +320,7 @@
             ]
           },
           {
+            "ID": "nickiminaj",
             "Name": "Nicki Minaj",
             "Years": "1982 - present",
             "ShortInfo": "Onika Tanya Maraj-Petty, known professionally as Nicki Minaj, is a Trinidadian-born rapper, singer, and songwriter based in the United States.",
@@ -366,6 +362,7 @@
             ]
           },
           {
+            "ID": "aurora",
             "Name": "Aurora",
             "Years": "1996 - present",
             "ShortInfo": "Aurora Aksnes, known mononymously as Aurora (stylized in all caps), is a Norwegian singer, songwriter and record producer. She began writing her first songs and learning dance at the age of six.",
@@ -409,6 +406,7 @@
             ]
           },
           {
+            "ID": "kanyewest",
             "Name": "Kanye West",
             "Years": "1977 - present",
             "ShortInfo": "Ye, better known as Kanye West, is an American rapper, singer, songwriter, record producer, and fashion designer. West has won 24 Grammy Awards.",
@@ -454,6 +452,7 @@
             ]
           },
           {
+            "ID": "taylorswift",
             "Name": "Taylor Swift",
             "Years": "1989 - present",
             "ShortInfo": "Taylor Alison Swift is an American singer-songwriter. Recognized for her songwriting, musical versatility, artistic reinventions, and influence on the music industry, she is a prominent cultural figure of the 21st century.",
@@ -495,6 +494,7 @@
             ]
           },
           {
+            "ID": "beyonce",
             "Name": "Beyoncé",
             "Years": "1981 - present",
             "ShortInfo": "Beyoncé Giselle Knowles-Carter is an American singer, songwriter and businesswoman. Known as \"Queen Bey\", she has been recognized for her boundary-pushing artistry, vocals, and performances.",
@@ -536,6 +536,7 @@
             ]
           },
           {
+            "ID": "skrillex",
             "Name": "Skrillex",
             "Years": "1988 - present",
             "ShortInfo": "Sonny John Moore known professionally as Skrillex, is an American DJ, music producer and a frontman of the rock group From First to Last.",
@@ -577,6 +578,7 @@
             ]
           },
           {
+            "ID": "salvatoreganacci",
             "Name": "Salvatore Ganacci",
             "Years": "1986 - present",
             "ShortInfo": "Emir Kobilić, known professionally as Salvatore Ganacci, is a Bosnian-Swedish DJ and record producer. His performances at Tomorrowland in 2018 and 2019 became viral, as did the music video for his song \"Horse\".",
@@ -619,6 +621,7 @@
             ]
           },
           {
+            "ID": "theweeknd",
             "Name": "The Weeknd",
             "Years": "1990 - present",
             "ShortInfo": "Abel Makkonen Tesfaye, known professionally as the Weeknd, is a Canadian singer, songwriter, and record producer. He is noted for his unconventional music production, artistic reinventions, and his signature use of the falsetto register.",
@@ -896,7 +899,7 @@
             {
               "date": "Май 2018",
               "info": "Гловер подписал контракт с RCA Records в январе 2018 года, что Гловер назвал «необходимой сменой темпа». В мае 2018 года он выпустил сингл под названием «This Is America», выступая в качестве ведущего и музыкального гостя в «Saturday Night Live». Песня дебютировала на первом месте, став одновременно первым синглом Гловера номер один и десяткой лучших в Соединенных Штатах. В нём он поет и читает рэп, черпая вдохновение из трэп-музыки. Тексты песен затрагивали различные темы, включая насилие с применением огнестрельного оружия и чернокожесть в Соединенных Штатах, в то время как в скандальном видео, снятом японским режиссером и частым соавтором Хиро Мураи, Гловер стрелял из огнестрельного оружия в хор."
-            },
+            }
           ],
           "Places": {
             "Link": "", 
@@ -1349,8 +1352,8 @@
           ]
         
         }
-        
     ]
     
   }
+}
 

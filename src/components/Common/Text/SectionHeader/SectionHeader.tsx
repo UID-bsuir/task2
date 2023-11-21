@@ -4,7 +4,7 @@ import { ISectionHeader } from "./SectionHeaderValidation";
 
 function SectionHeader(props: ISectionHeader) {
   return (
-    <h1>{props.data}</h1>  
+    <h1 className="SectionHeader">{props.data}</h1>  
   );
 }
 

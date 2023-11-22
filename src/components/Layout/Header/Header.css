@@ -11,8 +11,6 @@
   justify-content: center;
   align-items: center;
   gap: 45px;
-
-
 }
 
 .Item-Top-H {
@@ -28,8 +26,6 @@
 .Item-Top-H:hover {
   text-shadow: 0px 0px 7px #FFF;
   cursor: pointer;
-
-
 }
 
 

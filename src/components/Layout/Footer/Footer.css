@@ -1,0 +1,11 @@
+.Footer {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: url("../../../assets/images/Footer-bg.png") no-repeat;
+  background-position: 0% 50%;
+  box-sizing: border-box;
+  padding: 0 100px 30px 100px;
+}

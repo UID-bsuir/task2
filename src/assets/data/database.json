@@ -28,9 +28,13 @@
           }
         ]
       },
-      "Footer": [
-          "2023 © All rights reserved"
-      ],
+      "Footer": {
+        "Logo": {
+          "Src": "../../../assets/images/logo.png",
+          "Alt": "logo"
+        },  
+        "Text": "2023 © All rights reserved"
+      },
       "MainPage": {
           "Header": {
               "Title": "Finally a place where music lives",
@@ -74,45 +78,49 @@
               "Title": "Thanks to those who code!",
               "Devs": [
                   {
-                      "Nickname": "Xenona",
-                      "GHLink": "https://github.com/Xenona",
-                      "Facts": [
-                          "Team Lead",
-                          "Design",
-                          ""
-                      ]
+                    "Nickname": "Xenona",
+                    "GHLink": "https://github.com/Xenona",
+                    "Facts": [
+                        "Team Lead",
+                        "Design",
+                        "Management"
+                    ],
+                    "ImgSrc": "./images/Xenona.png"
                   },
                   {
-                      "Nickname": "Mkulik05",
-                      "GHLink": "https://github.com/mkulik05",
-                      "Facts": [
-                          "Tech Lead",
-                          "Deployment",
-                          ""
-                      ]
+                    "Nickname": "Mkulik05",
+                    "GHLink": "https://github.com/mkulik05",
+                    "Facts": [
+                        "Tech Lead & Management",
+                        "Deployment",
+                        "Coding solutions & optimisation"
+                    ],
+                    "ImgSrc": "./images/Mkulik05.png"
                   },
                   {
-                      "Nickname": "SignificantNose",
-                      "GHLink": "https://github.com/SignificantNose",
-                      "Facts": [
-                          "Creative designer",
-                          "Content line-ups",
-                          ""
-                      ]
+                    "Nickname": "SignificantNose",
+                    "GHLink": "https://github.com/SignificantNose",
+                    "Facts": [
+                        "Creative designer",
+                        "Content line-ups",
+                        "Database administrator"
+                    ],
+                    "ImgSrc": "./images/SignificantNose.png"
                   },
                   {
-                      "Nickname": "EgMcDuck",
-                      "GHLink": "https://github.com/EgMcDuck",
-                      "Facts": [
-                          "Developer",
-                          "",
-                          ""
-                      ]
+                    "Nickname": "EgMcDuck",
+                    "GHLink": "https://github.com/EgMcDuck",
+                    "Facts": [
+                        "Developer",
+                        "Speeding up coding process",
+                        "Really effective"
+                    ],
+                    "ImgSrc": "./images/EgMcDuck.png"
                   }
               ],
               "Note": {
-                  "Title": "Note:",
-                  "Info": "to check GitHub profiles, you may click on profile pics."
+                "Title": "Note:",
+                "Info": "to check GitHub profiles, you may click on profile pics."
               }
           }
       },

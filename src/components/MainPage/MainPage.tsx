@@ -4,7 +4,6 @@ import Header from "../Layout/Header/Header.tsx";
 import db from "../../assets/data/database.json";
 import {ErrorBoundary } from "../500Page/500Page.tsx";
 import { getLangOrSetDefault } from "../../Utils/Cookies.ts";
-import "./MainPage.css";
 import CommonText from "../Common/Text/CommonText/CommonText.tsx";
 import SectionHeader from "../Common/Text/SectionHeader/SectionHeader.tsx";
 import ParagraphHeader from "../Common/Text/ParagraphHeader/ParagraphHeader.tsx";
@@ -15,16 +14,19 @@ import QuickFacts from "./Components/QuickFacts/QuickFacts.tsx";
 import { getArtist } from "../../Utils/GetArtist.ts";
 import DynamicImage from "../Common/DynamicImage/DynamicImage.tsx";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
+import DeveloperCard from "./Components/DeveloperCard/DeveloperCard.tsx";
+import Footer from "../Layout/Footer/Footer.tsx";
 
 function MainPage() {
 
   const lang = getLangOrSetDefault().toLowerCase();
 
   const a = getArtist();
+  console.log();
   return (
     <ErrorBoundary>
       <div className="Hero-Wrapper">
-        <section className="Intro">
+        <section className="Intro" id="intro">
           <Header data={db[lang].Header}></Header>
           <div className="LeftColumn">
             <h1>{db[lang].MainPage.Header.Title}</h1>
@@ -34,7 +36,7 @@ function MainPage() {
             </div>
           </div>
         </section>
-        <section className="ArtistOfTheDay">
+        <section className="ArtistOfTheDay" id="artist">
           <SectionHeader data={db[lang].MainPage.ArtistOfTheDay.Title}></SectionHeader>
           <div className="ArtistInfo">
             <ArtistShortInfo data={{Name: db[lang].Artists[a].Name, ShortInfo: db[lang].Artists[a].ShortInfo, Url: db[lang].Artists[a].ID}}></ArtistShortInfo>
@@ -44,7 +46,7 @@ function MainPage() {
             </div>
           </div>
         </section>
-        <section className="WannaKnowMore">
+        <section className="WannaKnowMore" id="about">
           <SectionHeader data={db[lang].MainPage.ProjectInfo.Title}></SectionHeader>
           <div className="ProjectInfo">
             {db[lang].MainPage.ProjectInfo.Facts.map((fact, index) => (
@@ -60,9 +62,19 @@ function MainPage() {
             ))}
           </div>
         </section>
-        <section className="Developers">
-          
+        <section className="Developers" id="devs">
+          <SectionHeader data={db[lang].MainPage.Developers.Title}></SectionHeader>
+          <div className="DevsWrapper">
+            {db[lang].MainPage.Developers.Devs.map((dev, index) => (
+              <DeveloperCard Image={{Src: dev.ImgSrc, Width: "100%", Height: "100%", Alt: dev.Nickname}} Nickname={dev.Nickname} Facts={dev.Facts} GHLink={dev.GHLink} key={index}></DeveloperCard>
+            ))}
+          </div>
+          <div className="Note">
+            <ParagraphHeader data={db[lang].MainPage.Developers.Note.Title} style={{marginLeft: "26px"}}></ParagraphHeader>
+            <CommonText data={db[lang].MainPage.Developers.Note.Info}></CommonText>
+          </div>
         </section>
+        <Footer data={db[lang].Footer}></Footer>
       </div>
     </ErrorBoundary>
   );

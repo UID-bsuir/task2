@@ -1,4 +1,4 @@
 export const getArtist = (): number => {
   
-  return 4;
+  return 8;
 };

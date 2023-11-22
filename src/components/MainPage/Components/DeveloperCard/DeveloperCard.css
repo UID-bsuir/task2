@@ -1,0 +1,23 @@
+ 
+.ColorWrapper {
+  height: 200px;
+  background-color: #E2E8FF;
+
+  display: flex;
+  justify-content: flex-start;
+  padding: 26px;
+  gap: 20px;
+  border-radius: 4px;
+}
+
+.TextualInfo, .FactsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+
+}
+
+.FactsWrapper {
+  gap: 15px;
+}

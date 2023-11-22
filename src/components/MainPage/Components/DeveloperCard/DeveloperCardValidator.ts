@@ -3,5 +3,6 @@ import { IDynamicImage } from "../../../Common/DynamicImage/DynamicImageValidato
 export interface IDeveloperCard {
   Image: IDynamicImage,
   Nickname: string,
+  GHLink: string,
   Facts: string[],
 }

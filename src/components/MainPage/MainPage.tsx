@@ -20,14 +20,17 @@ import Footer from "../Layout/Footer/Footer.tsx";
 function MainPage() {
 
   const lang = getLangOrSetDefault().toLowerCase();
+  // console.log(lang);
+
+
 
   const a = getArtist();
-  console.log();
   return (
     <ErrorBoundary>
       <div className="Hero-Wrapper">
         <section className="Intro" id="intro">
           <Header data={db[lang].Header}></Header>
+
           <div className="LeftColumn">
             <h1>{db[lang].MainPage.Header.Title}</h1>
             <div className="TextAndButton">
@@ -36,6 +39,7 @@ function MainPage() {
             </div>
           </div>
         </section>
+
         <section className="ArtistOfTheDay" id="artist">
           <SectionHeader data={db[lang].MainPage.ArtistOfTheDay.Title}></SectionHeader>
           <div className="ArtistInfo">
@@ -46,6 +50,7 @@ function MainPage() {
             </div>
           </div>
         </section>
+
         <section className="WannaKnowMore" id="about">
           <SectionHeader data={db[lang].MainPage.ProjectInfo.Title}></SectionHeader>
           <div className="ProjectInfo">
@@ -62,6 +67,7 @@ function MainPage() {
             ))}
           </div>
         </section>
+
         <section className="Developers" id="devs">
           <SectionHeader data={db[lang].MainPage.Developers.Title}></SectionHeader>
           <div className="DevsWrapper">
@@ -74,6 +80,7 @@ function MainPage() {
             <CommonText data={db[lang].MainPage.Developers.Note.Info}></CommonText>
           </div>
         </section>
+        
         <Footer data={db[lang].Footer}></Footer>
       </div>
     </ErrorBoundary>

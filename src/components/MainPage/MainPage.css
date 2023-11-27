@@ -73,6 +73,7 @@
 
 .ProjectInfo {
   align-items: flex-start;
+  height: auto;
 }
 
 .ProjectInfo p {
@@ -125,6 +126,5 @@
   background-color: #E2E8FF;
   width: 100%;
   height: 50px;
-  margin-bottom: 130px;
   gap: 10px;
 }

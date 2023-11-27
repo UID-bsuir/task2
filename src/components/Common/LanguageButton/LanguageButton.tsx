@@ -3,19 +3,19 @@ import "./LanguageButton.css";
 import { getLangOrSetDefault, setLang } from "../../../Utils/Cookies.ts";
 
 function LanguageButton() {
-  const [LangLabel, setLangLabel] = useState("En 🇬🇧");
+  const lang = getLangOrSetDefault();
+  const text = lang === "En" ? "En 🇬🇧" : "Ru 🌎";
+
+  const [LangLabel, setLangLabel] = useState(text);
 
   const changeButton = () => {
-    const lang = getLangOrSetDefault();
-    const emoji = lang==="En" ? " 🇬🇧" : " 🌎";
-    setLangLabel(lang.toUpperCase() + emoji);
-    setLang(lang==="En" ? "Ru" : "En");
+    setLangLabel(text);
+    setLang(lang === "En" ? "Ru" : "En");
+    location.reload();
   };
 
   return(
-    <>
-      <button className="LanguageButton" onClick={() => changeButton()}>{LangLabel}</button>
-    </>
+    <button className="LanguageButton" onClick={() => changeButton()}>{LangLabel}</button>
   );
 } 
 

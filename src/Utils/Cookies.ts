@@ -10,11 +10,15 @@ const setCookie = (name: string, value: string, TTL: number) : void => {
 
 export const getLangOrSetDefault = (): string => {
   const cookie = getCookieByName("language");
+
   const lang = cookie ? cookie : "en";
+
   
   if (!cookie) {
     setCookie("language", lang, 7);
   }
+
+  
   return lang;
 };
 

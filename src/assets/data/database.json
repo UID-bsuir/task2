@@ -12,15 +12,15 @@
           },
           {
             "Title": "Artist of the Day",
-            "Url": "/main/#artist"
+            "Url": "/main#artist"
           },
           {
             "Title": "About",
-            "Url": "/main/#about"
+            "Url": "/main#about"
           },
           {
             "Title": "Developers",
-            "Url": "/main/#devs"
+            "Url": "/main#devs"
           },
           {
             "Title": "Artists",
@@ -81,7 +81,7 @@
                     "Nickname": "Xenona",
                     "GHLink": "https://github.com/Xenona",
                     "Facts": [
-                        "Team Lead",
+                        "Team Lead & Management",
                         "Design",
                         "Management"
                     ],

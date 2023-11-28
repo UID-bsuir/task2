@@ -4,7 +4,7 @@ import { IParagraphHeader } from "./ParagraphHeaderValidation";
 
 function ParagraphHeader(props: IParagraphHeader) {
   return (
-    <h2 style={props.style}>{props.data}</h2>  
+    <h2 style={props.style}>{props.Data}</h2>  
   );
 }
 

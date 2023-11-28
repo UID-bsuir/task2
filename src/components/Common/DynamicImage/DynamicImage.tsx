@@ -20,7 +20,7 @@ function YourComponent(props: IDynamicImage) {
 
   return (
     <div>
-      {imageSrc && <img src={imageSrc} alt={props.Alt} style={{width: props.Width, height: props.Height, objectFit: "cover"}}/>}
+      {imageSrc && <img src={imageSrc} alt={props.Alt} style={{width: props.Width, height: props.Height, objectFit: "cover", objectPosition: "center"}}/>}
     </div>
   );
 }

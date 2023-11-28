@@ -1,6 +1,6 @@
 export interface ICommonButton {
-  text: string,
-  type: "button" | "submit" | "reset";
-  url: string;
+  Text: string,
+  Type: "button" | "submit" | "reset";
+  Url: string;
   style?: object;
 }

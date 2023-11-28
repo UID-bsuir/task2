@@ -3,7 +3,7 @@ import { ICommonButton } from "./CommonButtonValidation";
 import "./CommonButton.css";
 import { useNavigate } from "react-router-dom";
 
-function CommonButton({text, type, url, ...props}: ICommonButton) {
+function CommonButton({Text: text, Type: type, Url: url, ...props}: ICommonButton) {
   const navigate = useNavigate();
 
   const redirect = (url: string): void => {

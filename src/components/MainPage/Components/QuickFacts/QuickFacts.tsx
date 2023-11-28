@@ -9,11 +9,11 @@ function QuickFacts(props: IQuickFacts) {
   return(
     <>
       <div className="QuickFactsWrapper">
-        <ParagraphHeader data={props.data.SubTitle}></ParagraphHeader>
-        {props.data.QuickFacts.map((value, index) => (
+        <ParagraphHeader Data={props.Data.SubTitle}></ParagraphHeader>
+        {props.Data.QuickFacts.map((value, index) => (
           <div className="Fact" key={index}>
             <NumberedCircle Number={index+1}></NumberedCircle>
-            <CommonText data={value}></CommonText>
+            <CommonText Data={value}></CommonText>
           </div>
         ))}
       </div>

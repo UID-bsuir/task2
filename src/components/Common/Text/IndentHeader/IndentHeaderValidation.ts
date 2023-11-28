@@ -1,4 +1,4 @@
 export interface IIndentHeader {
-  data: string;
+  Data: string;
 }
 

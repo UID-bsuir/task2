@@ -10,9 +10,9 @@ function Footer(props: IFooter) {
   return (
     <footer className="Footer">
       <img src={logo} alt={props.data.Logo.Alt}/>
-      <CommonText data={props.data.Text} style={{color: "#ffffff", textShadow: "0px 0px 7px #FFF"}}></CommonText>
+      <CommonText Data={props.data.Text} style={{color: "#ffffff", textShadow: "0px 0px 7px #FFF"}}></CommonText>
       <a href="#intro" onClick={() => {scrollToAnchor("goUpwards"); }}>
-        <ArrowUpwardIcon id="goUpwards" style={{color: "#FFFFFF"}} ></ArrowUpwardIcon>
+        <ArrowUpwardIcon id="goUpwards" Style={{color: "#FFFFFF"}} ></ArrowUpwardIcon>
       </a>
     </footer>
   );

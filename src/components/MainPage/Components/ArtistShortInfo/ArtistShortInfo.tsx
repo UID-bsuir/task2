@@ -9,9 +9,9 @@ function ArtistShortInfo(props: IArtistShortInfo) {
   return(
     <>
       <div className="Wrapper">
-        <ParagraphHeader data={props.data.Name}></ParagraphHeader>
-        <CommonText data={props.data.ShortInfo}></CommonText>
-        <CommonButton type="button" text="Learn More" url={props.data.Url}></CommonButton>
+        <ParagraphHeader Data={props.data.Name}></ParagraphHeader>
+        <CommonText Data={props.data.ShortInfo}></CommonText>
+        <CommonButton Type="button" Text="Learn More" Url={props.data.Url}></CommonButton>
       </div>
     </>
   );

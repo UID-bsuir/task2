@@ -1,5 +1,5 @@
 export interface IParagraphHeader {
-  data: string;
+  Data: string;
   style?: object;
 }
 

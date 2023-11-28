@@ -1,5 +1,5 @@
 export interface ICommonText {
-  data: string;
-  color?: string;
+  Data: string;
+  Color?: string;
   style?: object;
 }

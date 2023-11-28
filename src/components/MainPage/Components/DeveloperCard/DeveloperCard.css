@@ -21,3 +21,19 @@
 .FactsWrapper {
   gap: 15px;
 }
+
+
+.Link {
+  width: 45%;
+  text-decoration: none;
+  color: #000000;
+}
+
+.Link:hover {
+  cursor: pointer;
+}
+
+.Link:active {  
+  cursor: pointer;
+  transform: translateY(10px);
+}

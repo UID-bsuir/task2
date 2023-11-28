@@ -11,9 +11,9 @@ function DeveloperCard(props: IDeveloperCard) {
       <div className="ColorWrapper">
         <DynamicImage Src={props.Image.Src} Width={props.Image.Width} Height={props.Image.Height} Alt={props.Image.Alt}></DynamicImage>
         <div className="TextualInfo">
-          <ParagraphHeader data={props.Nickname}></ParagraphHeader>
+          <ParagraphHeader Data={props.Nickname}></ParagraphHeader>
           <div className="FactsWrapper">
-            {props.Facts.map((el, index) => <CommonText key={index} data={el}></CommonText>)}
+            {props.Facts.map((el, index) => <CommonText key={index} Data={el}></CommonText>)}
           </div>
         </div>
       </div>

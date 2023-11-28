@@ -1,0 +1,17 @@
+.HeroWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  
+  width: 1440px;
+  padding: 0 100px 200px 100px;
+  justify-content: left;
+}
+
+.HeaderPad {
+  background-color: #2A26E4;
+  padding: 50px 100px 50px 100px;
+
+  background: url("../../assets/images/Header-bg.png") no-repeat;
+  background-position: 0 90%;
+}

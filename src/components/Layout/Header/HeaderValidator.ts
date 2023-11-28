@@ -1,5 +1,5 @@
 export interface IHeader {
-  data: {
+  Data: {
     Logo: {
       Src: string,
       Alt: string,
@@ -8,5 +8,6 @@ export interface IHeader {
       Title: string,
       Url: string,
     }[],
-  }
+  },
+  style?: object;
 }

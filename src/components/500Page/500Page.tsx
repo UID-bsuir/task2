@@ -26,6 +26,6 @@ const ErrorFallbackComponent = () => (
   <div>
     <h2>Something went wrong!</h2>
     <p>Please try again later or contact support.</p>
-    <CommonButton text="Move on to Main" type="button" url="/main"></CommonButton>
+    <CommonButton Text="Move on to Main" Type="button" Url="/main"></CommonButton>
   </div>
 );

@@ -1,10 +1,10 @@
 import React from "react";
 import "./SectionHeader.css";
-import { ISectionHeader } from "./SectionHeaderValidation";
+import { ISectionHeader } from "./SectionHeaderValidator";
 
 function SectionHeader(props: ISectionHeader) {
   return (
-    <h1 className="SectionHeader">{props.Data}</h1>  
+    <h1 className="SectionHeader" style={props.style}>{props.Data}</h1>  
   );
 }
 

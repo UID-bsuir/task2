@@ -8,19 +8,19 @@
         "Menu": [
           {
             "Title": "Main",
-            "Url": "/main"
+            "Url": "/"
           },
           {
             "Title": "Artist of the Day",
-            "Url": "/main#artist"
+            "Url": "/#artist"
           },
           {
             "Title": "About",
-            "Url": "/main#about"
+            "Url": "/#about"
           },
           {
             "Title": "Developers",
-            "Url": "/main#devs"
+            "Url": "/#devs"
           },
           {
             "Title": "Artists",
@@ -175,8 +175,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "33.8958",
+              "Longitude": "-118.2208",
+              "Title": "Compton",
+              "Description": "Compton, a city nestled in the vibrant cultural tapestry of Los Angeles County, holds a special place in the heart of Kendrick Lamar, the iconic rapper and lyricist. Born and raised on the streets of Compton, Kendrick Lamar draws inspiration from the challenges and triumphs of his hometown. The rhythmic pulse of Compton, its struggles, resilience, and diverse community, resonate through Lamar's groundbreaking music, making it a cornerstone of his artistic expression. From the gritty realities of urban life to the celebration of success against all odds, Kendrick Lamar's lyrical prowess paints a vivid picture of Compton, inviting listeners to journey through its streets, feel its heartbeat, and understand the complex narratives woven into its fabric."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
@@ -223,8 +225,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "34.0522",
+              "Longitude": "-118.2437",
+              "Title": "Atlanta",
+              "Description": "Atlanta, the vibrant and eclectic city in the heart of Georgia, serves as a creative nexus for the multitalented Donald Glover. Known by his stage name Childish Gambino in the music world, Glover has deep ties to Atlanta, where his artistic journey took root. The city's rich cultural diversity, pulsating music scene, and dynamic atmosphere have significantly influenced Glover's music and career. From the dynamic beats echoing through the neighborhoods to the nuanced characters in his acclaimed television series 'Atlanta,' Donald Glover weaves the essence of the city into the fabric of his art. Exploring themes of identity, culture, and the human experience, Glover's work reflects the spirit and soul of Atlanta, making it an integral part of his narrative as an artist."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
@@ -271,8 +275,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "41.5934",
+              "Longitude": "-87.3474",
+              "Title": "Gary",
+              "Description": "Gary, Indiana, a city etched into the cultural history of music, played a pivotal role in shaping the legendary career of Michael Jackson, the King of Pop. Born and raised in Gary, Michael Jackson's journey from the industrious streets of the city to global superstardom is a testament to his unparalleled talent and indelible impact on the world of entertainment. The echoes of Gary resonate in the soulful melodies and groundbreaking dance moves that defined Michael Jackson's music. From the Motown days to the record-breaking success of 'Thriller,' the influence of Gary, with its industrial backdrop and vibrant community, remains an integral part of the King of Pop's narrative. Michael Jackson's connection to Gary transcends geography, as the city continues to stand as a symbol of the enduring legacy of one of the greatest musical icons in history."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
@@ -313,8 +319,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "34.4208",
+              "Longitude": "-119.6982",
+              "Title": "Santa Barbara",
+              "Description": "Santa Barbara, the picturesque coastal city nestled between the Pacific Ocean and the Santa Ynez Mountains, holds a special place in the heart of Katy Perry, the globally acclaimed pop sensation. Born and raised in Santa Barbara, Katy Perry's musical journey began against the backdrop of its sun-kissed beaches and vibrant artistic community. The city's laid-back charm and creative energy have left an indelible mark on Perry's music, characterized by infectious pop anthems and empowering lyrics. From the local stages of Santa Barbara to the global arenas, Katy Perry's evolution as an artist reflects the spirit of her hometown. The beauty of Santa Barbara, with its stunning landscapes and diverse culture, continues to influence the colorful tapestry of Katy Perry's chart-topping career, making it an integral part of her narrative in the world of music."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
@@ -354,8 +362,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "10.6747",
+              "Longitude": "-61.5019",
+              "Title": "Port of Spain",
+              "Description": "Port of Spain, the vibrant capital city of Trinidad and Tobago, serves as the cultural heartbeat that influenced the early years of Nicki Minaj, the globally celebrated rapper and artist. Born in Saint James, Port of Spain, Nicki Minaj's formative experiences in this lively city have left an enduring imprint on her unique style and eclectic artistry. The rhythmic energy of Port of Spain, its rich blend of cultures, and the colorful tapestry of the local music scene have all played a role in shaping Nicki Minaj's dynamic and genre-defying career. From her Trinidadian roots to conquering the global stage, Nicki Minaj's connection to Port of Spain remains an integral part of her narrative, a source of inspiration that echoes through her chart-topping hits and boundary-pushing performances."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
@@ -397,8 +407,10 @@
 
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "60.3913",
+              "Longitude": "5.3221",
+              "Title": "Bergen",
+              "Description": "Bergen, the picturesque city on the southwestern coast of Norway, is the birthplace and a significant influence on the ethereal and enchanting music of Aurora. Born in Stavanger and later relocating to Bergen, Aurora's artistic journey has been shaped by the breathtaking landscapes and atmospheric beauty of Norway. The mystical fjords and the dramatic scenery find resonance in Aurora's hauntingly beautiful vocals and introspective lyrics. From the intimate stages of Bergen to the global acclaim of her music, Aurora's connection to her Norwegian roots remains a cornerstone of her artistry. The city's blend of natural wonders and cultural richness continues to inspire Aurora's unique sound, creating a musical landscape that transports listeners to the ethereal realms of her imagination."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
@@ -444,8 +456,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "41.8781",
+              "Longitude": "-87.6298",
+              "Title": "Chicago",
+              "Description": "Chicago, the dynamic and culturally rich city situated on the shores of Lake Michigan, holds a special place in the story of Kanye West, the influential rapper, producer, and fashion icon. Born in Atlanta and raised in Chicago, Kanye's early experiences in the Windy City played a crucial role in shaping his artistic vision. The diverse neighborhoods, the pulsating energy of the music scene, and the urban landscapes of Chicago are woven into the fabric of Kanye West's music. From the iconic beats of 'The College Dropout' to the boundary-pushing 'Yeezus,' Chicago's influence is palpable in the evolution of Kanye's sound. The city's spirit, its struggles, and its triumphs resonate through Kanye West's groundbreaking work, marking Chicago as an integral part of his journey in redefining the boundaries of hip-hop and pop culture."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
@@ -486,8 +500,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "36.1745",
+              "Longitude": "-86.7679",
+              "Title": "Nashville",
+              "Description": "Nashville, the iconic heart of country music and a city pulsating with creative energy, played a pivotal role in shaping the early career of Taylor Swift, the global pop sensation. Hailing from Reading, Pennsylvania, Taylor Swift's musical journey found a home in the vibrant streets of Nashville. The city's honky-tonk charm, rich musical heritage, and the bustling atmosphere of Music Row influenced Swift's evolution as a singer-songwriter. From the intimate stages of the Bluebird Cafe to the grandeur of stadium tours, Nashville's spirit is embedded in the DNA of Taylor Swift's chart-topping hits and poignant storytelling. The connection between Taylor Swift and Nashville is a testament to the city's role as a nurturing ground for artistic expression, a place where the dreams of a young country girl transformed into the anthems that resonate with fans worldwide."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
@@ -528,8 +544,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "29.7604",
+              "Longitude": "-95.3698",
+              "Title": "Houston",
+              "Description": "Houston, the vibrant and diverse city in the heart of Texas, is integral to the story of Beyoncé, the global icon and Queen of Pop. Born and raised in Houston, Beyoncé's journey from the local talent shows to international superstardom is a testament to the city's influence on her artistry. The rich cultural tapestry, the soulful sounds of the music scene, and the spirit of resilience in Houston have shaped Beyoncé's music, style, and unmatched stage presence. From the Destiny's Child days to solo success, Houston remains a cornerstone in the narrative of Beyoncé's illustrious career. The city's warmth, diversity, and dynamic energy continue to resonate through her empowering anthems, making Houston an enduring source of inspiration for one of the greatest entertainers of our time."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
@@ -570,8 +588,10 @@
               }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "34.0522",
+              "Longitude": "-118.2437",
+              "Title": "Los Angeles",
+              "Description": "Los Angeles, the sprawling metropolis on the west coast of the United States, is a hub of creativity and the adopted home of Skrillex, the influential electronic music producer and DJ. While born in Highland Park, Northeast Los Angeles, Skrillex's career reached new heights in the electronic dance music scene of the city. The pulsating energy of L.A.'s nightlife, the diverse music landscape, and the collaborative spirit of the entertainment industry have all left a profound mark on Skrillex's groundbreaking sound. From the iconic dubstep tracks to collaborations with chart-topping artists, Los Angeles is intertwined with Skrillex's evolution as a music innovator. The city's constant reinvention and avant-garde spirit serve as a backdrop to the sonic experiments that define Skrillex's contribution to the global electronic music scene."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
@@ -613,8 +633,10 @@
 
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "43.8563",
+              "Longitude": "18.4131",
+              "Title": "Sarajevo",
+              "Description": "Salvatore Ganacci, the dynamic DJ and producer, hails from Sarajevo, the vibrant capital of Bosnia and Herzegovina. Nestled in the heart of the Balkans, Sarajevo's rich history and cultural tapestry have undoubtedly influenced the musical journey of Salvatore Ganacci. While the specific coordinates may be approximated, the spirit of Sarajevo resonates in Ganacci's beats, echoing the diversity and rhythm of the city. From the lively streets of Sarajevo to stages worldwide, Salvatore Ganacci's music connects people across borders, embodying the universal language of electronic beats inspired by his Bosnian roots."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
@@ -663,8 +685,10 @@
                 }
             ],
             "Places": {
-              "Link": "", 
-              "Desription": ""
+              "Latitude": "43.6511",
+              "Longitude": "-79.3830",
+              "Title": "Toronto",
+              "Description": "Toronto, the vibrant and diverse city in Canada, is central to the story of The Weeknd, the global R&B and pop sensation. Born and raised in Scarborough, a district of Toronto, The Weeknd's musical journey began against the backdrop of the city's multicultural influences and urban energy. The diverse neighborhoods, the rhythm of Toronto's nightlife, and the city's artistic spirit have all left an indelible mark on The Weeknd's unique sound and style. From the mixtapes that gained local recognition to chart-topping international success, Toronto remains a fundamental part of The Weeknd's narrative. The city's cultural mosaic, its dynamic music scene, and the raw emotions of its streets continue to echo in the soulful melodies and captivating performances that define The Weeknd's illustrious career."
             },
             "Video": {
               "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"
@@ -696,19 +720,19 @@
       "Menu": [
         {
           "Title": "Main",
-          "Url": "/main"
+          "Url": "/"
         },
         {
           "Title": "Исполнитель дня",
-          "Url": "/main/#artist"
+          "Url": "/#artist"
         },
         {
           "Title": "О проекте",
-          "Url": "/main/#about"
+          "Url": "/#about"
         },
         {
           "Title": "Разработчики",
-          "Url": "/main/#devs"
+          "Url": "/#devs"
         },
         {
           "Title": "Исполнители",
@@ -863,8 +887,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "33.58", 
+            "Longitude": "118.13",
+            "Title": "Комптон",
+            "Desription": "Ко́мптон (англ. Compton) — город в округе Лос-Анджелес, штат Калифорния, США. Население Комптона составляет около 96 000 человек, город находится в 20 км к югу от Лос-Анджелеса на реке Лос-Анджелес. Город был назван в честь Гриффита Комптона, приведшего сюда группу поселенцев в 1867 году. В конце 1980-х годов этот пригород Лос-Анджелеса стал известен благодаря войне бандитских группировок Bloods и Crips и до сих пор считается одним из самых криминально опасных городов Соединённых Штатов."
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
@@ -911,8 +937,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "34.0522",
+            "Longitude": "-118.2437",
+            "Title": "Атланта",
+            "Description": "Атланта, живописный город, внедренный в культурную ткань Джорджии, служит творческим перекрестком для многогранных талантов Дональда Гловера. Известного сценического именем Чайлдиш Гамбино в музыкальном мире, Гловер глубоко связан с Атлантой, где начался его художественный путь. Разнообразие культурных влияний, пульсирующая музыкальная сцена и динамичная атмосфера Атланты оказали значительное воздействие на музыку Гловера. От динамичных ритмов, разносимых по районам, до нюансированных персонажей в его признанном телесериале 'Атланта', Дональд Гловер вплетает дух города в свое творчество. Исследование темы идентичности, культуры и человеческого опыта в творчестве Гловера отражает дух и душу Атланты, делая его неотъемлемой частью его повествования как артиста."
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
@@ -959,8 +987,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "41.5934",
+            "Longitude": "-87.3474",
+            "Title": "Гари",
+            "Description": "Гари, штат Индиана, город, вписанный в культурную историю музыки, сыграл ключевую роль в формировании легендарной карьеры Майкла Джексона, Короля поп-музыки. Родившийся и выросший в Гари, Майкл Джексон черпает вдохновение из вызовов и триумфов своего родного города. Ритмичный пульс Гари, его устойчивость и разнообразное сообщество звучат через музыку Майкла Джексона, отмечая его уникальный вклад в мировую музыку. От дней в Motown до рекордного успеха 'Thriller', влияние Гари, с его промышленным фоном и живым сообществом, остается неотъемлемой частью повествования Короля поп-музыки. Связь Майкла Джексона с Гари преодолевает географию, поскольку город продолжает служить символом долговечного наследия одного из величайших музыкальных икон в истории."
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
@@ -1001,8 +1031,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "34.4208",
+            "Longitude": "-119.6982",
+            "Title": "Санта-Барбара",
+            "Description": "Санта-Барбара, живописный прибрежный город, расположенный между Тихим океаном и горами Санта-Инез, занимает особое место в сердце Кэти Перри, всемирно признанной поп-сенсации. Родившаяся и выросшая в Санта-Барбаре, музыкальный путь Кэти Перри начался на фоне солнечных пляжей и творческого сообщества города. Солнечный шарм города и его творческая энергия оставили неизгладимый след в музыке Перри, характеризуемой заразительными поп-гимнами и вдохновляющими текстами. От местных сцен Санта-Барбары до глобальных арен, эволюция Кэти Перри как артистки отражает дух ее родного города. Красота Санта-Барбары со своими захватывающими пейзажами и разнообразной культурой продолжает вдохновлять разноцветное полотно карьеры Кэти Перри, делая его неотъемлемой частью ее повествования в мире музыки."
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
@@ -1042,8 +1074,11 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "10.6747",
+            "Longitude": "-61.5019",
+            "Title": "Порт-оф-Спейн",
+            "Description": "Порт-оф-Спейн, оживленная столица Тринидада и Тобаго, является культурным центром, который повлиял на первые годы жизни Ники Минаж, всемирно известной рэперши и артистки. Ники Минаж родилась в Сент-Джеймсе, Порт-оф-Спейн. Формирующий опыт Ники Минаж в этом оживленном городе оставил неизгладимый отпечаток на ее уникальном стиле и эклектичном артистизме. Ритмичная энергия Порт-оф-Спейна, его богатое сочетание культур и красочное разнообразие местной музыкальной сцены – все это сыграло свою роль в формировании динамичной и бросающей вызов жанрам карьеры Ники Минаж. От ее тринидадских корней до завоевания мировой сцены, связь Ники Минаж с Порт-оф-Спейном остается неотъемлемой частью ее повествования, источником вдохновения, которое отражается в ее хитах, возглавляющих чарты, и потрясающих выступлениях"
+
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
@@ -1085,8 +1120,10 @@
 
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "60.3913",
+            "Longitude": "5.3221",
+            "Title": "Берген",
+            "Desription": "Берген, живописный город на юго-западном побережье Норвегии, является местом рождения и значительным влиянием на неземную и чарующую музыку Авроры. Родившаяся в Ставангере, а затем переехавшая в Берген, творческий путь Авроры был сформирован под влиянием захватывающие дух пейзажи и атмосферная красота Норвегии.Мистические фьорды и драматические пейзажи находят отклик в захватывающе красивом вокале и интроспективной лирике Авроры.От интимных сцен Бергена до мирового признания ее музыки, связь Авроры с ее норвежскими корнями остается краеугольным камнем ее артистизм. Сочетание чудес природы и культурного богатства города продолжает вдохновлять уникальное звучание Авроры, создавая музыкальный ландшафт, который переносит слушателей в неземные сферы ее воображения"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
@@ -1132,8 +1169,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "41.8781",
+            "Longitude": "-87.6298",
+            "Title": "Чикаго",
+            "Desription": "Чикаго, динамичный и богатый культурой город, расположенный на берегу озера Мичиган, занимает особое место в истории Канье Уэста, влиятельного рэпера, продюсера и иконы моды. Он родился в Атланте и вырос в Чикаго. Ранний опыт Канье в Городе Ветров сыграл решающую роль в формировании его творческого видения.Разнообразные районы, пульсирующая энергия музыкальной сцены и городские пейзажи Чикаго вплетены в ткань музыки Канье Уэста.Из культовых битов Канье Уэста \"The College Dropout\" и раздвигающая границы \"Yeezus\", влияние Чикаго ощутимо в эволюции звука Канье. Дух города, его борьба и его триумфы находят отклик в новаторских работах Канье Уэста, отмечая Чикаго как неотъемлемую часть его творчества. путешествие в переопределении границ хип-хопа и поп-культуры"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
@@ -1174,8 +1213,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "36.1745",
+            "Longitude": "-86.7679",
+            "Title": "Нэшвилл",
+            "Desription": "Нэшвилл, культовое сердце кантри-музыки и город, пульсирующий творческой энергией, сыграл ключевую роль в формировании ранней карьеры Тейлор Свифт, мировой поп-сенсации. Родом из Ридинга, штат Пенсильвания, Тейлор Свифт нашла свое музыкальное путешествие. дом на оживленных улицах Нэшвилла. Очарование города, богатое музыкальное наследие и шумная атмосфера Music Row повлияли на развитие Свифта как певца и автора песен. От уютных сцен Bluebird Cafe до грандиозных туров по стадионам. Связь между Тейлор Свифт и Нэшвиллом является свидетельством роли города как питательной среды для художественного самовыражения, места, где воплощаются мечты молодой страны. Girl превратилась в гимны, которые находят отклик у фанатов по всему миру"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
@@ -1216,8 +1257,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "29.7604",
+            "Longitude": "-95.3698",
+            "Title": "Хьюстон",
+            "Desription": "Хьюстон, яркий и разнообразный город в самом сердце Техаса, является неотъемлемой частью истории Бейонсе, мировой иконы и королевы поп-музыки. Бейонсе родилась и выросла в Хьюстоне, пройдя путь от местных шоу талантов до международной суперзвезды. является свидетельством влияния города на ее артистизм.Богатое культурное наследие, задушевные звуки музыкальной сцены и дух стойкости Хьюстона сформировали музыку, стиль и непревзойденное умение держаться на сцене.От дней Destiny's Child до сольного выступления Успех, Хьюстон остается краеугольным камнем в повествовании о выдающейся карьере Бейонсе. Теплота, разнообразие и динамичная энергия города продолжают находить отклик в ее вдохновляющих гимнах, делая Хьюстон непреходящим источником вдохновения для одного из величайших артистов нашего времени"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
@@ -1258,8 +1301,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "34.0522",
+            "Longitude": "-118.2437",
+            "Title": "Лос-Анджелес",
+            "Desription": "Лос-Анджелес, обширный мегаполис на западном побережье Соединенных Штатов, является центром творчества и приемным домом Скриллекса, влиятельного продюсера электронной музыки и ди-джея. Родившись в Хайленд-Парке, на северо-востоке Лос-Анджелеса, он Карьера Skrillex достигла новых высот на сцене электронной танцевальной музыки города. Пульсирующая энергия ночной жизни Лос-Анджелеса, разнообразный музыкальный ландшафт и дух сотрудничества в индустрии развлечений - все это оставило глубокий след в новаторском звучании Skrillex. Лос-Анджелес тесно связан с эволюцией Skrillex как музыкального новатора. Постоянное переосмысление и авангардный дух города служат фоном для звуковых экспериментов, которые определяют вклад Skrillex в мировую электронную музыкальную сцену."
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
@@ -1301,8 +1346,10 @@
 
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "43.8563",
+            "Longitude": "18.4131",
+            "Title": "Сараево",
+            "Desription": "Сальваторе Ганаччи, динамичный диджей и продюсер, родом из Сараево, оживленной столицы Боснии и Герцеговины. Расположенный в самом сердце Балкан, Сараево, богатая история и культурное наследие, несомненно, повлияли на музыкальное путешествие Сальваторе Ганаччи. Хотя конкретные координаты могут быть приблизительными, дух Сараево резонирует в битах Ганаччи, отражая разнообразие и ритм города. От оживленных улиц Сараево до сцен по всему миру, музыка Сальваторе Ганаччи объединяет людей через границы, воплощая универсальный язык электронной музыки. биты, вдохновленные его боснийскими корнями"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
@@ -1351,8 +1398,10 @@
             }
           ],
           "Places": {
-            "Link": "", 
-            "Desription": ""
+            "Latitude": "43.6511",
+            "Longitude": "-79.3830",
+            "Title": "Торонто", 
+            "Desription": "Торонто, яркий и разнообразный город в Канаде, занимает центральное место в истории The Weeknd, мировой сенсации в стиле R&B и поп-музыки. Музыкальное путешествие The Weeknd, родившегося и выросшего в Скарборо, районе Торонто, началось на фоне мультикультурного влияния и городской энергии. Разнообразные кварталы, ритм ночной жизни Торонто и художественный дух города — все это оставило неизгладимый след в уникальном звучании и стиле The Weeknd. От микстейпов, получивших признание на местном уровне, до лучших международных чартов Успех Торонто остается фундаментальной частью повествования The Weeknd. Культурная мозаика города, его динамичная музыкальная сцена и необузданные эмоции его улиц продолжают отражаться в душевных мелодиях и захватывающих выступлениях, которые определяют выдающуюся карьеру The Weeknd"
           },
           "Video": {
             "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"

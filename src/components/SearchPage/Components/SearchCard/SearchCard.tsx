@@ -8,10 +8,16 @@ import { getLangOrSetDefault } from "../../../../Utils/Cookies.ts";
 import DynamicImage from "../../../Common/DynamicImage/DynamicImage.tsx";
 function SearchCard(props: ISearchCard) {
 
-  if (!props.data) {
-    return(
+  if (!props.data || props.data.length == 0) {
+    return (
       <div className="NotFound">
-        <CommonText Data={getLangOrSetDefault() === "En" ? "Nothing found. Try looking for something else..." : "Ничего не найдено. Попробуйте искать иначе..." }></CommonText>
+        <CommonText
+          Data={
+            getLangOrSetDefault() === "En"
+              ? "Nothing found. Try looking for something else..."
+              : "Ничего не найдено. Попробуйте искать иначе..."
+          }
+        ></CommonText>
       </div>
     );
   }

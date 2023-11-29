@@ -1,17 +1,18 @@
 .root {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 130px;
   
   width: 1440px;
-  padding: 0 100px 0 100px;
   justify-content: left;
+
+  height: 100%;
 }
 
-/* .HeaderPad {
+.header {
   background-color: #2A26E4;
   padding: 50px 100px 50px 100px;
 
-  background: url("../../assets/images/Header-bg.png") no-repeat;
+  background: url("./assets/images/Header-bg.png") no-repeat;
   background-position: 0 90%;
-} */
+}

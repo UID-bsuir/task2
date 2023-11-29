@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { IDynamicImage } from "./DynamicImageValidator";
 
 
-function YourComponent(props: IDynamicImage) {
+function DynamicImage(props: IDynamicImage) {
   const [imageSrc, setImageSrc] = useState("");
 
   useEffect(() => {
@@ -20,9 +20,9 @@ function YourComponent(props: IDynamicImage) {
 
   return (
     <div>
-      {imageSrc && <img src={imageSrc} alt={props.Alt} style={{width: props.Width, height: props.Height, objectFit: "cover", objectPosition: "center"}}/>}
+      {imageSrc && <img src={imageSrc} alt={props.Alt} style={{width: props.Width, height: props.Height, objectFit: "cover", objectPosition: "center", borderRadius:"4px"} }/>}
     </div>
   );
 }
 
-export default YourComponent;
+export default DynamicImage;

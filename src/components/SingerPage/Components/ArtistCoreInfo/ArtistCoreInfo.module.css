@@ -1,0 +1,44 @@
+.titleRoot {
+  display: flex;
+  margin-bottom: 124px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.body {
+  display: flex;
+  gap: 34px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.fact {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.Date {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  width: 364px;
+
+  margin-right: 67px;
+  background-color: #E2E8FF;
+  clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+}
+
+.info {
+  display: block;
+  flex: 1;
+}

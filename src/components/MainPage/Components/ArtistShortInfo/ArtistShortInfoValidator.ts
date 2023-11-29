@@ -1,5 +1,5 @@
 export interface IArtistShortInfo {
-  data: {
+  Data: {
     Name: string,
     ShortInfo: string,
     Url: string,

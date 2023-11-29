@@ -1,5 +1,5 @@
 .Footer {
-  height: 180px;
+  min-height: 180px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -8,4 +8,5 @@
   background-position: 0% 50%;
   box-sizing: border-box;
   padding: 0 100px 30px 100px;
+  margin-top: auto;
 }

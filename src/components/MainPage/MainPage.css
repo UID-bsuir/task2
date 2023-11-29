@@ -1,12 +1,6 @@
-.Hero-Wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 130px;
-  
-  width: 1440px;
-}
-
 .Intro {
+  margin-top: -270px;
+
   width: 1440px;
   height: 920px;  
   background: url("../../assets/images/Header-bg.png") no-repeat;

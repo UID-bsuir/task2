@@ -2,7 +2,6 @@
 
 .placesBody {
   display: flex;
-  flex-direction: row;
 }
 
 .placesDesc {
@@ -23,7 +22,6 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: row;
 }
 
 
@@ -31,4 +29,33 @@
   max-width: 480px;
   max-height: 520px;
   object-fit: contain;
+}
+
+.CommonPlaces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placesBody {
+  width: 90%
+}
+
+.VideSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-width: 1170px) {  
+  .placesBody {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px
+  }
+  .placesDesc {
+    max-width: 80%;
+    margin-left: 0;
+  }
 }

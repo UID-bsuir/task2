@@ -134,9 +134,7 @@
     margin: 0 50px 0 50px;
     min-height: 640px;
   }
-  .SectionHeader {
-    margin-left: 100px;
-  }
+
   .Wrapper {
     width: 90%;
     flex-direction: row;

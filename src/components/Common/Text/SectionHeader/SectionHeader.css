@@ -9,4 +9,6 @@
   width: 400px;
   text-align: left;
   text-decoration: none;
+  align-items: flex-start;
+  margin-left: 100px;
 }

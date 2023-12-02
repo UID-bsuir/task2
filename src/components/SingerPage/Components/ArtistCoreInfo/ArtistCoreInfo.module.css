@@ -1,6 +1,6 @@
 .titleRoot {
   display: flex;
-  margin-bottom: 124px;
+  margin-bottom: 59px;
   align-items: center;
   justify-content: flex-start;
   gap: 40px;
@@ -8,6 +8,8 @@
 
 .body {
   display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
   gap: 34px;
 }
 
@@ -16,12 +18,14 @@
   flex-direction: column;
   flex: 1;
   gap: 20px;
+  width: 80%
 }
 
 .fact {
   display: flex;
   align-content: center;
   align-items: center;
+  justify-content: space-between;  
 }
 
 .Date {

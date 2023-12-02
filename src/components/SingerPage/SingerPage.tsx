@@ -33,7 +33,7 @@ function SingerPage() {
     <>
       <ArtistCoreInfo artist={artist} />
 
-      <section>
+      <section className={styles.CommonPlaces}>
         <SectionHeader Data={db.ArtistPage.Places.Title} style={{marginBottom: "100px"}}></SectionHeader>
         <div className={styles.placesBody}>
           <div className={styles.placesDesc}>
@@ -49,11 +49,11 @@ function SingerPage() {
         </div>
       </section>
 
-      <section>
-        <SectionHeader Data={db.ArtistPage.Video.Title}></SectionHeader>
+      <section className={styles.VideSection}>
+        <SectionHeader style={{marginBottom: "50px"}} Data={db.ArtistPage.Video.Title}></SectionHeader>
         <iframe
           height={750}
-          width="100%"
+          width="90%"
           src={"http://www.youtube.com/embed/" + getEmbeded(artist.Video.Link)}
           frameBorder="0"
           allowFullScreen
@@ -61,7 +61,7 @@ function SingerPage() {
       </section>
 
       <section>
-        <SectionHeader Data={db.ArtistPage.Gallery.Title}></SectionHeader>
+        <SectionHeader style={{marginBottom: "50px"}} Data={db.ArtistPage.Gallery.Title}></SectionHeader>
         <div className={styles.galleryRoot}>
           {artist.Gallery.map((e) => (
             <img src={process.env.PUBLIC_URL + e} key={e} />

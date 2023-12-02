@@ -128,7 +128,7 @@
   }
   .Intro {
     width: 100%;
-    margin-top: -305px;
+    margin-top: -290px;
   }
   .ImgWrapper {
     margin: 0 50px 0 50px;
@@ -150,5 +150,13 @@
   }
   .Developers {
     align-items: center;
+  }
+
+  .Note {
+    width: 90%;
+  }
+
+  section > h1 {
+    margin-left: 5%;
   }
 }

@@ -17,7 +17,6 @@ import { useDatabase } from "../../DataContext.tsx";
 function MainPage() {
   const db = useDatabase();
   const a = getArtistIndexOrSet(db.Artists.length);
-  console.log(db.Artists, a);
 
   return (
     <>

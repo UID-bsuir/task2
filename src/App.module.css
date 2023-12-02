@@ -9,6 +9,12 @@
   height: 100%;
 }
 
+@media (max-width: 1440px) {  
+  .root {
+    width: 100%;
+  }
+}
+
 .header {
   background-color: #2A26E4;
   padding: 50px 100px 50px 100px;

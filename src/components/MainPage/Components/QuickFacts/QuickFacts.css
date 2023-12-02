@@ -15,3 +15,26 @@
 .Fact p {
   width: 300px;
 }
+
+@media (max-width: 1439px) {  
+  .QuickFactsWrapper h2{
+    display: none;
+  }
+  .QuickFactsWrapper {
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+  }  
+
+  /* works ok until some text will have 3 lines */
+  .Fact p {
+    width: auto;
+  }
+  .Fact {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}

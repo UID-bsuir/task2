@@ -8,3 +8,14 @@
 .Wrapper p { 
   width: 300px;
 }
+
+
+@media (max-width: 1439px) {  
+  .Wrapper {
+    width: 90%;
+    flex-direction: row;
+  }
+  .Wrapper p { 
+    width: 40%;
+  }
+}

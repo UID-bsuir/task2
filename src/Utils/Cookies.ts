@@ -20,11 +20,11 @@ export const getArtistIndexOrSet = (numberOfArtists: number): number => {
   
   const cookie = parseInt(Cookies.get("artist"));
   
-  const index = Math.round(Math.random()*numberOfArtists);
+  const index = Math.round(Math.random()* numberOfArtists);
   
   if (!cookie) {
     Cookies.set("artist", `${index}`, {expires: 1});
-    return index;
+    return index < numberOfArtists ? index : numberOfArtists;
   } 
   
   return cookie;

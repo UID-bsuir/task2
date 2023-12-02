@@ -24,7 +24,7 @@ export const getArtistIndexOrSet = (numberOfArtists: number): number => {
   
   if (!cookie) {
     Cookies.set("artist", `${index}`, {expires: 1});
-    return index < numberOfArtists ? index : (numberOfArtists - 1);
+    return index < numberOfArtists ? index : (numberOfArtists - 1); 
   } 
   
   return cookie;

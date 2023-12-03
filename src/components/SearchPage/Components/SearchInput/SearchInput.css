@@ -16,4 +16,16 @@
   color: #68759E;
   margin-right: 30px;
 }
- 
+
+
+@media (max-width: 1489px) {  
+  .Root {
+    margin-left: 50px;
+    width: 90%
+  }
+}
+@media (max-width: 1439px) {  
+  .Root {
+    margin-left: 0;
+  }
+}

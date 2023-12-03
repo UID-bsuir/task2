@@ -61,8 +61,14 @@
   gap: 10px;
 }
 
-
-.Facts p { 
-  /* font-size: 25px; */
+@media (max-width: 1489px) {  
+  .SearchCard {
+    width: 90%;
+    margin-left: 25px;
+  }
 }
-
+@media (max-width: 1439px) {  
+  .SearchCard {
+    margin-left: 0;
+  }
+}

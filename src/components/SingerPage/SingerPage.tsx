@@ -49,7 +49,7 @@ function SingerPage() {
         </div>
       </section>
 
-      <section className={styles.VideSection}>
+      <section className={styles.VideoSection}>
         <SectionHeader style={{marginBottom: "50px"}} Data={db.ArtistPage.Video.Title}></SectionHeader>
         <iframe
           height={750}

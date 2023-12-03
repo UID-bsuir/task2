@@ -16,7 +16,7 @@
   width: 300px;
 }
 
-@media (max-width: 1439px) {  
+@media (max-width: 1489px) {  
   .QuickFactsWrapper h2{
     display: none;
   }

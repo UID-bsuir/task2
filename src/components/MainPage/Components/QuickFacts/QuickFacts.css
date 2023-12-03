@@ -17,24 +17,9 @@
 }
 
 @media (max-width: 1489px) {  
-  .QuickFactsWrapper h2{
-    display: none;
-  }
   .QuickFactsWrapper {
-    flex-direction: row;
-    align-items: center;
-    width: 90%;
+    width: 50%;
     gap: 20px;
+    align-items: center;
   }  
-
-  /* works ok until some text will have 3 lines */
-  .Fact p {
-    width: auto;
-  }
-  .Fact {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-  }
 }

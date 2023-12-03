@@ -12,10 +12,9 @@
 
 @media (max-width: 1489px) {  
   .Wrapper {
-    width: 90%;
-    flex-direction: row;
+    gap: 30px;
+    width: 50%;
+    align-items: center;
   }
-  .Wrapper p { 
-    width: 40%;
-  }
+
 }

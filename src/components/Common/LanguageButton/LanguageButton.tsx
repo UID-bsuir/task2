@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./LanguageButton.css";
 import { getLangOrSetDefault, setLang } from "../../../Utils/Cookies.ts";
 
-function LanguageButton() {
+function LanguageButton({IsMenuHidden}) {
   const lang = getLangOrSetDefault();
   const text = lang === "En" ? "En 🇬🇧" : "Ru 🌎";
 
@@ -13,9 +13,8 @@ function LanguageButton() {
     setLang(lang === "En" ? "Ru" : "En");
     location.reload();
   };
-
   return(
-    <button className="LanguageButton" onClick={() => changeButton()}>{LangLabel}</button>
+    <button className={`LanguageButton LanguageButton${IsMenuHidden ? "HELL": "Normal"}`} onClick={() => changeButton()}>{LangLabel}</button>
   );
 } 
 

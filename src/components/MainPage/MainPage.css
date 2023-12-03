@@ -64,13 +64,14 @@
 }
 
 .ProjectInfo {
+  width: 90%;
   align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
   height: auto;
+  gap: 30px;
 }
 
-.ProjectInfo p {
-  width: 300px;
-}
 
 .ProjectFact {
   display: flex;
@@ -78,6 +79,9 @@
   flex: 1;
   justify-content: left;
   gap: 30px;
+  min-width: 260px;
+  max-width: 300px;
+
 
 }
 
@@ -123,8 +127,9 @@
   }
   .ArtistInfo {
     align-items: center;
-    flex-direction: column-reverse;
-    height: 1042px;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    height: auto;
   }
   .Intro {
     width: 100%;
@@ -132,19 +137,10 @@
   }
   .ImgWrapper {
     margin: 0 50px 0 50px;
-    min-height: 640px;
+    min-width: 90%;
   }
 
-  .Wrapper {
-    width: 90%;
-    flex-direction: row;
-  }
-  .ProjectInfo {
-    width: 90%
-  }
-  .ProjectInfo p {
-    width: auto;
-  }
+
   .DevsWrapper {
     width: 90%
   }
@@ -152,11 +148,39 @@
     align-items: center;
   }
 
+
   .Note {
     width: 90%;
   }
 
   section > h1 {
     margin-left: 5%;
+  }
+}
+
+
+@media (max-width: 1012px) {  
+  .DevsWrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {  
+  .Intro {
+    padding: 50px 50px 200px 50px;
+  }
+  .LeftColumn h1 {
+    font-size: 55px;
+    width: 90%
+  }
+  .ImgWrapper {
+    margin: 0;
+  }
+}
+
+@media (max-width: 470px) {  
+  .LeftColumn h1 {
+    font-size: 40px;
+    text-wrap: balance;
   }
 }

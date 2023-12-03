@@ -1,3 +1,7 @@
+.PhoneMenu-H {
+  display: none;
+}
+
 .Top-H {
   display: flex;
   box-sizing: border-box;
@@ -29,4 +33,55 @@
   cursor: pointer;
 }
 
+.MenuIcon {
+  display: none;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.DropdownMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.PhoneMenu-H {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+.PhoneMenu-H  a, .LanguageButtonHELL {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.PhoneMenu-H:has(> a:active) {
+  display: none;
+}
+
+
+
+.DropdownMenu:hover .PhoneMenu-H {
+  display: block;
+}
+
+
+@media (max-width: 1439px) {  
+  .Menu-H {
+    display: none;
+  }
+
+  .MenuIcon {
+    display: block;
+  }
+  .LanguageButtonNormal {
+    display: none;
+  }
+}
 

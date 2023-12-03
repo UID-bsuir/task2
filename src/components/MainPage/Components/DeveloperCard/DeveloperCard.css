@@ -37,3 +37,21 @@
   cursor: pointer;
   transform: translateY(10px);
 }
+
+@media (max-width: 1200px) {  
+  .Link {
+    min-width: 430px;
+  }
+}
+
+@media (max-width: 1012px) {  
+  .Link {
+    width: 90%;
+  }
+}
+
+@media (max-width: 430px) {  
+  .Link {
+    min-width: auto;
+  }
+}

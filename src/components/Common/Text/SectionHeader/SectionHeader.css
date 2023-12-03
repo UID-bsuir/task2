@@ -11,5 +11,11 @@
   text-decoration: none;
   align-items: flex-start;
 }
+@media (max-width: 500px) {  
+  .SectionHeader{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
 
 

@@ -1,6 +1,7 @@
 {
   "name": "task2",
   "version": "0.1.0",
+  "homepage": "https://uid-bsuir.github.io/task2",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -10,6 +11,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.1.0",
     "js-cookie": "^3.0.5",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
@@ -20,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npx eslint . --fix && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

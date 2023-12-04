@@ -5,11 +5,11 @@ import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
 import InputAdornment from "@mui/material/InputAdornment";
 
-function SearchInput({onSearch}: ISearchInput) {
+function SearchInput({onSearch, id}: ISearchInput) {
   const [inputValue, setInputValue] = useState("");
  
   return (
-    <div className="Root">
+    <div className="Root" id={id}>
       <InputBase
         placeholder="I am looking for..."
         className="Input"

@@ -9,7 +9,7 @@ import CommonText from "../../../Common/Text/CommonText/CommonText.tsx";
 
 export function ArtistCoreInfo({ artist }: { artist: Artist }) {
   return (
-    <section className={styles.ArtistCoreInfoSection}>
+    <section className={styles.ArtistCoreInfoSection} id="intro">
       <div className={styles.titleRoot}>
         <SectionHeader Data={artist.Name} style={{width: "390px"}}></SectionHeader>
         <ParagraphHeader Data={artist.Years}></ParagraphHeader>

@@ -53,7 +53,6 @@ function SingerPage() {
         <SectionHeader style={{marginBottom: "50px"}} Data={db.ArtistPage.Video.Title}></SectionHeader>
         <iframe className={styles.Video}
           height={750}
-          width="90%"
           src={"http://www.youtube.com/embed/" + getEmbeded(artist.Video.Link)}
           frameBorder="0"
           allowFullScreen

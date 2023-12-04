@@ -34,7 +34,7 @@ function SearchPage() {
 
   return (
     <>
-      <SearchInput onSearch={findArtists}></SearchInput>
+      <SearchInput onSearch={findArtists} id={"intro"}></SearchInput>
       <SearchCard data={searchResult}></SearchCard>
     </>
   );

@@ -145,9 +145,6 @@
   }
 
 
-  .DevsWrapper {
-    width: 90%
-  }
   .Developers {
     align-items: center;
   }
@@ -167,6 +164,9 @@
   .DevsWrapper {
     display: flex;
     justify-content: center;
+  }
+  .ProjectInfo {
+    gap: 100px;
   }
 }
 @media (max-width: 600px) {  

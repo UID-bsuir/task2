@@ -55,7 +55,7 @@
     width: 90%;
   }
   .titleRoot {
-    width: 90%
+    width: 80%;
   }
   .body {
     width: 100%;
@@ -67,7 +67,8 @@
     width: 100%;
   }
   .Date {
-    width: 80%;
+    margin-top: 60px;
+    width: 100%;
     margin-right: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 70%, 50% 100%, 0% 70%);
   }

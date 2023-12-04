@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./LanguageButton.css";
 import { getLangOrSetDefault, setLang } from "../../../Utils/Cookies.ts";
+import { ILanguageButton } from "./LanguageButtonValidator.ts";
 
-function LanguageButton({IsMenuHidden}) {
+function LanguageButton({ IsMenuHidden }: ILanguageButton) {
   const lang = getLangOrSetDefault();
   const text = lang === "En" ? "En 🇬🇧" : "Ru 🌎";
 

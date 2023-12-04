@@ -21,7 +21,7 @@ function Header(props: IHeader) {
           ))}
         </div>
 
-        <div className="DropdownMenu" style={{"float":"left"}}>
+        <div className="DropdownMenu">
           <div className="MenuIcon">
             <MenuIcon />
           </div>

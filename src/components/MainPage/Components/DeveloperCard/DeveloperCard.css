@@ -42,6 +42,10 @@
   .Link {
     min-width: 430px;
   }
+  .ColorWrapper {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 @media (max-width: 1012px) {  

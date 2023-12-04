@@ -19,9 +19,9 @@ function App() {
           <Header />
         </div>
         <Routes>
-          <Route path="/search" element={<SearchPage />} />
-          <Route path="/:id" element={<SingerPage />} />
-          <Route path="/" element={<MainPage />} />
+          <Route path="/task2/search" element={<SearchPage />} />
+          <Route path="/task2/:id" element={<SingerPage />} />
+          <Route path="/task2/" element={<MainPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />

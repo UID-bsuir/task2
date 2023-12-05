@@ -25,7 +25,7 @@ function SearchCard(props: ISearchCard) {
   return(
     <div className="CardsWrapper">
       {props.data.map((a, index) => (
-        <a key={index} href={`/${a.ID}`} className="SearchCard">
+        <a key={index} href={`/task2/${a.ID}`} className="SearchCard">
           <div className="ImgWrap">
             <DynamicImage {...a.Data.Image}></DynamicImage>
           </div>

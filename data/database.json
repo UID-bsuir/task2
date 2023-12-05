@@ -8,23 +8,23 @@
         "Menu": [
           {
             "Title": "Main",
-            "Url": "/"
+            "Url": "/task2/"
           },
           {
             "Title": "Artist of the Day",
-            "Url": "/#artist"
+            "Url": "/task2/#artist"
           },
           {
             "Title": "About",
-            "Url": "/#about"
+            "Url": "/task2/#about"
           },
           {
             "Title": "Developers",
-            "Url": "/#devs"
+            "Url": "/task2/#devs"
           },
           {
             "Title": "Artists",
-            "Url": "/search"
+            "Url": "/task2/search"
           }
         ]
       },
@@ -720,23 +720,23 @@
       "Menu": [
         {
           "Title": "Главная",
-          "Url": "/"
+          "Url": "/task2/"
         },
         {
           "Title": "Исполнитель дня",
-          "Url": "/#artist"
+          "Url": "/task2/#artist"
         },
         {
           "Title": "О проекте",
-          "Url": "/#about"
+          "Url": "/task2/#about"
         },
         {
           "Title": "Разработчики",
-          "Url": "/#devs"
+          "Url": "/task2/#devs"
         },
         {
           "Title": "Исполнители",
-          "Url": "/search"
+          "Url": "/task2/search"
         }
       ]
     },

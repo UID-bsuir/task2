@@ -22,7 +22,7 @@ function App() {
           <Route path="/task2/search" element={<SearchPage />} />
           <Route path="/task2/:id" element={<SingerPage />} />
           <Route path="/task2/" element={<MainPage />} />
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="/task2/*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>

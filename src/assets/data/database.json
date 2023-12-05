@@ -85,7 +85,7 @@
                         "Design",
                         "Management"
                     ],
-                    "ImgSrc": "./images/Xenona.png"
+                    "ImgSrc": "/images/Xenona.png"
                   },
                   {
                     "Nickname": "Mkulik05",
@@ -95,7 +95,7 @@
                         "Deployment",
                         "Coding solutions & optimisation"
                     ],
-                    "ImgSrc": "./images/Mkulik05.png"
+                    "ImgSrc": "/images/Mkulik05.png"
                   },
                   {
                     "Nickname": "SignificantNose",
@@ -105,7 +105,7 @@
                         "Content line-ups",
                         "Database administrator"
                     ],
-                    "ImgSrc": "./images/SignificantNose.png"
+                    "ImgSrc": "/images/SignificantNose.png"
                   },
                   {
                     "Nickname": "EgMcDuck",
@@ -115,7 +115,7 @@
                         "Speeding up coding process",
                         "Really effective"
                     ],
-                    "ImgSrc": "./images/EgMcDuck.png"
+                    "ImgSrc": "/images/EgMcDuck.png"
                   }
               ],
               "Note": {
@@ -234,14 +234,14 @@
               "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
             },
             "Gallery": [
-              "./images/dong-lover-1.jpg",
-              "./images/dong-lover-2.jpg",
-              "./images/dong-lover-3.jpg",
-              "./images/dong-lover-4.jpg",
-              "./images/dong-lover-5.jpg",
-              "./images/dong-lover-6.jpg",
-              "./images/dong-lover-7.jpg",
-              "./images/dong-lover-8.jpg"
+              "/images/dong-lover-1.jpg",
+              "/images/dong-lover-2.jpg",
+              "/images/dong-lover-3.jpg",
+              "/images/dong-lover-4.jpg",
+              "/images/dong-lover-5.jpg",
+              "/images/dong-lover-6.jpg",
+              "/images/dong-lover-7.jpg",
+              "/images/dong-lover-8.jpg"
             ]
           },
           {
@@ -284,12 +284,12 @@
               "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
             },
             "Gallery": [
-              "./images/michael-jackson-1.jpg",
-              "./images/michael-jackson-2.jpg",
-              "./images/michael-jackson-3.jpg",
-              "./images/michael-jackson-4.jpg",
-              "./images/michael-jackson-5.jpg",
-              "./images/michael-jackson-6.jpg"
+              "/images/michael-jackson-1.jpg",
+              "/images/michael-jackson-2.jpg",
+              "/images/michael-jackson-3.jpg",
+              "/images/michael-jackson-4.jpg",
+              "/images/michael-jackson-5.jpg",
+              "/images/michael-jackson-6.jpg"
             ]
           },
           {
@@ -328,11 +328,11 @@
               "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
             },
             "Gallery": [
-              "./images/katy-perry-1.jpg",
-              "./images/katy-perry-2.jpg",
-              "./images/katy-perry-3.jpg",
-              "./images/katy-perry-4.jpg",
-              "./images/katy-perry-5.jpg"
+              "/images/katy-perry-1.jpg",
+              "/images/katy-perry-2.jpg",
+              "/images/katy-perry-3.jpg",
+              "/images/katy-perry-4.jpg",
+              "/images/katy-perry-5.jpg"
             ]
           },
           {
@@ -371,12 +371,12 @@
               "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
             },
             "Gallery": [
-              "./images/nicki-minaj-1.jpg",
-              "./images/nicki-minaj-2.jpg",
-              "./images/nicki-minaj-3.jpg",
-              "./images/nicki-minaj-4.jpg",
-              "./images/nicki-minaj-5.jpg",
-              "./images/nicki-minaj-6.jpg"
+              "/images/nicki-minaj-1.jpg",
+              "/images/nicki-minaj-2.jpg",
+              "/images/nicki-minaj-3.jpg",
+              "/images/nicki-minaj-4.jpg",
+              "/images/nicki-minaj-5.jpg",
+              "/images/nicki-minaj-6.jpg"
             ]
           },
           {
@@ -416,13 +416,13 @@
               "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
             },
             "Gallery": [
-              "./images/aurora-1.jpg",
-              "./images/aurora-2.jpg",
-              "./images/aurora-3.jpg",
-              "./images/aurora-4.jpg",
-              "./images/aurora-5.jpg",
-              "./images/aurora-6.jpg",
-              "./images/aurora-7.jpg"
+              "/images/aurora-1.jpg",
+              "/images/aurora-2.jpg",
+              "/images/aurora-3.jpg",
+              "/images/aurora-4.jpg",
+              "/images/aurora-5.jpg",
+              "/images/aurora-6.jpg",
+              "/images/aurora-7.jpg"
             ]
           },
           {
@@ -465,12 +465,12 @@
               "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
             },
             "Gallery": [
-              "./images/kanye-west-1.jpg",
-              "./images/kanye-west-2.jpg",
-              "./images/kanye-west-3.jpg",
-              "./images/kanye-west-4.jpg",
-              "./images/kanye-west-5.jpg",
-              "./images/kanye-west-6.jpg"
+              "/images/kanye-west-1.jpg",
+              "/images/kanye-west-2.jpg",
+              "/images/kanye-west-3.jpg",
+              "/images/kanye-west-4.jpg",
+              "/images/kanye-west-5.jpg",
+              "/images/kanye-west-6.jpg"
             ]
           },
           {
@@ -509,12 +509,12 @@
               "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
             },
             "Gallery": [
-              "./images/taylor-swift-1.jpg",
-              "./images/taylor-swift-2.jpg",
-              "./images/taylor-swift-3.jpg",
-              "./images/taylor-swift-4.jpg",
-              "./images/taylor-swift-5.jpg",
-              "./images/taylor-swift-6.jpg"
+              "/images/taylor-swift-1.jpg",
+              "/images/taylor-swift-2.jpg",
+              "/images/taylor-swift-3.jpg",
+              "/images/taylor-swift-4.jpg",
+              "/images/taylor-swift-5.jpg",
+              "/images/taylor-swift-6.jpg"
             ]
           },
           {
@@ -553,12 +553,12 @@
               "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
             },
             "Gallery": [
-              "./images/beyonce-1.jpg",
-              "./images/beyonce-2.jpg",
-              "./images/beyonce-3.jpg",
-              "./images/beyonce-4.jpg",
-              "./images/beyonce-5.jpg",
-              "./images/beyonce-6.jpg"
+              "/images/beyonce-1.jpg",
+              "/images/beyonce-2.jpg",
+              "/images/beyonce-3.jpg",
+              "/images/beyonce-4.jpg",
+              "/images/beyonce-5.jpg",
+              "/images/beyonce-6.jpg"
             ]
           },
           {
@@ -597,12 +597,12 @@
               "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
             },
             "Gallery": [
-              "./images/skrillex-1.jpg",
-              "./images/skrillex-2.jpg",
-              "./images/skrillex-3.jpg",
-              "./images/skrillex-4.jpg",
-              "./images/skrillex-5.jpg",
-              "./images/skrillex-6.jpg"
+              "/images/skrillex-1.jpg",
+              "/images/skrillex-2.jpg",
+              "/images/skrillex-3.jpg",
+              "/images/skrillex-4.jpg",
+              "/images/skrillex-5.jpg",
+              "/images/skrillex-6.jpg"
             ]
           },
           {
@@ -642,12 +642,12 @@
               "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
             },
             "Gallery": [
-              "./images/salvatore-ganacci-1.jpg",
-              "./images/salvatore-ganacci-2.jpg",
-              "./images/salvatore-ganacci-3.jpg",
-              "./images/salvatore-ganacci-4.jpg",
-              "./images/salvatore-ganacci-5.jpg",
-              "./images/salvatore-ganacci-6.jpg"
+              "/images/salvatore-ganacci-1.jpg",
+              "/images/salvatore-ganacci-2.jpg",
+              "/images/salvatore-ganacci-3.jpg",
+              "/images/salvatore-ganacci-4.jpg",
+              "/images/salvatore-ganacci-5.jpg",
+              "/images/salvatore-ganacci-6.jpg"
             ]
           },
           {
@@ -694,16 +694,16 @@
               "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"
             },
             "Gallery": [
-              "./images/abel-tesfaye-1.jpg",
-              "./images/abel-tesfaye-2.jpg",
-              "./images/abel-tesfaye-3.jpg",
-              "./images/abel-tesfaye-4.jpg",
-              "./images/abel-tesfaye-5.jpg",
-              "./images/abel-tesfaye-6.jpg",
-              "./images/abel-tesfaye-7.jpg",
-              "./images/abel-tesfaye-8.jpg",
-              "./images/abel-tesfaye-9.jpg",
-              "./images/abel-tesfaye-10.jpg"
+              "/images/abel-tesfaye-1.jpg",
+              "/images/abel-tesfaye-2.jpg",
+              "/images/abel-tesfaye-3.jpg",
+              "/images/abel-tesfaye-4.jpg",
+              "/images/abel-tesfaye-5.jpg",
+              "/images/abel-tesfaye-6.jpg",
+              "/images/abel-tesfaye-7.jpg",
+              "/images/abel-tesfaye-8.jpg",
+              "/images/abel-tesfaye-9.jpg",
+              "/images/abel-tesfaye-10.jpg"
             ]
           
           
@@ -797,7 +797,7 @@
                         "Дизайн",
                         "Менеджмент"
                     ],
-                    "ImgSrc": "./images/Xenona.png"
+                    "ImgSrc": "/images/Xenona.png"
                 },
                 {
                     "Nickname": "Mkulik05",
@@ -807,7 +807,7 @@
                         "Развёртывание",
                         "Алгоритмы и оптимизация"
                     ],
-                    "ImgSrc": "./images/Mkulik05.png"
+                    "ImgSrc": "/images/Mkulik05.png"
                 },
                 {
                     "Nickname": "SignificantNose",
@@ -817,7 +817,7 @@
                         "Содержимое вебсайта",
                         "Администратор баз данных"
                     ],
-                    "ImgSrc": "./images/SignificantNose.png"
+                    "ImgSrc": "/images/SignificantNose.png"
                 },
                 {
                     "Nickname": "EgMcDuck",
@@ -827,7 +827,7 @@
                         "Ускорял рабочий процесс",
                         "Абсолютно эффективен"
                     ],
-                    "ImgSrc": "./images/EgMcDuck.png"
+                    "ImgSrc": "/images/EgMcDuck.png"
                 }
             ],
             "Note": {
@@ -896,14 +896,14 @@
             "Link": "https://www.youtube.com/watch?v=KT7mM2YN6Do"
           },
           "Gallery": [
-            "./images/kendrick-lamar-1.jpg",
-            "./images/kendrick-lamar-2.jpg",
-            "./images/kendrick-lamar-3.jpg",
-            "./images/kendrick-lamar-4.jpg",
-            "./images/kendrick-lamar-5.jpg",
-            "./images/kendrick-lamar-6.jpg",
-            "./images/kendrick-lamar-7.jpg",
-            "./images/kendrick-lamar-8.jpg"
+            "/images/kendrick-lamar-1.jpg",
+            "/images/kendrick-lamar-2.jpg",
+            "/images/kendrick-lamar-3.jpg",
+            "/images/kendrick-lamar-4.jpg",
+            "/images/kendrick-lamar-5.jpg",
+            "/images/kendrick-lamar-6.jpg",
+            "/images/kendrick-lamar-7.jpg",
+            "/images/kendrick-lamar-8.jpg"
           ]
         },
         {
@@ -946,14 +946,14 @@
             "Link": "https://www.youtube.com/watch?v=0mHE4egebQs"
           },
           "Gallery": [
-            "./images/dong-lover-1.jpg",
-            "./images/dong-lover-2.jpg",
-            "./images/dong-lover-3.jpg",
-            "./images/dong-lover-4.jpg",
-            "./images/dong-lover-5.jpg",
-            "./images/dong-lover-6.jpg",
-            "./images/dong-lover-7.jpg",
-            "./images/dong-lover-8.jpg"
+            "/images/dong-lover-1.jpg",
+            "/images/dong-lover-2.jpg",
+            "/images/dong-lover-3.jpg",
+            "/images/dong-lover-4.jpg",
+            "/images/dong-lover-5.jpg",
+            "/images/dong-lover-6.jpg",
+            "/images/dong-lover-7.jpg",
+            "/images/dong-lover-8.jpg"
           ]
         },
         {
@@ -996,12 +996,12 @@
             "Link": "https://www.youtube.com/watch?v=D3dup5NA9Y0"
           },
           "Gallery": [
-            "./images/michael-jackson-1.jpg",
-            "./images/michael-jackson-2.jpg",
-            "./images/michael-jackson-3.jpg",
-            "./images/michael-jackson-4.jpg",
-            "./images/michael-jackson-5.jpg",
-            "./images/michael-jackson-6.jpg"
+            "/images/michael-jackson-1.jpg",
+            "/images/michael-jackson-2.jpg",
+            "/images/michael-jackson-3.jpg",
+            "/images/michael-jackson-4.jpg",
+            "/images/michael-jackson-5.jpg",
+            "/images/michael-jackson-6.jpg"
           ]
         },
         {
@@ -1040,11 +1040,11 @@
             "Link": "https://www.youtube.com/watch?v=ZV2g8AIqVBs&ab_channel=WatchMojo.com"
           },
           "Gallery": [
-            "./images/katy-perry-1.jpg",
-            "./images/katy-perry-2.jpg",
-            "./images/katy-perry-3.jpg",
-            "./images/katy-perry-4.jpg",
-            "./images/katy-perry-5.jpg"
+            "/images/katy-perry-1.jpg",
+            "/images/katy-perry-2.jpg",
+            "/images/katy-perry-3.jpg",
+            "/images/katy-perry-4.jpg",
+            "/images/katy-perry-5.jpg"
           ]
         },
         {
@@ -1084,12 +1084,12 @@
             "Link": "https://www.youtube.com/watch?v=0_HEkIMBf30&ab_channel=Biography"
           },
           "Gallery": [
-            "./images/nicki-minaj-1.jpg",
-            "./images/nicki-minaj-2.jpg",
-            "./images/nicki-minaj-3.jpg",
-            "./images/nicki-minaj-4.jpg",
-            "./images/nicki-minaj-5.jpg",
-            "./images/nicki-minaj-6.jpg"
+            "/images/nicki-minaj-1.jpg",
+            "/images/nicki-minaj-2.jpg",
+            "/images/nicki-minaj-3.jpg",
+            "/images/nicki-minaj-4.jpg",
+            "/images/nicki-minaj-5.jpg",
+            "/images/nicki-minaj-6.jpg"
           ]
         },
         {
@@ -1129,13 +1129,13 @@
             "Link": "https://www.youtube.com/watch?v=aLJUjs-pbiI&ab_channel=MargoSolovey"
           },
           "Gallery": [
-            "./images/aurora-1.jpg",
-            "./images/aurora-2.jpg",
-            "./images/aurora-3.jpg",
-            "./images/aurora-4.jpg",
-            "./images/aurora-5.jpg",
-            "./images/aurora-6.jpg",
-            "./images/aurora-7.jpg"
+            "/images/aurora-1.jpg",
+            "/images/aurora-2.jpg",
+            "/images/aurora-3.jpg",
+            "/images/aurora-4.jpg",
+            "/images/aurora-5.jpg",
+            "/images/aurora-6.jpg",
+            "/images/aurora-7.jpg"
           ]
         },
         {
@@ -1178,12 +1178,12 @@
             "Link": "https://www.youtube.com/watch?v=qgvMPhgfero&ab_channel=Biography"
           },
           "Gallery": [
-            "./images/kanye-west-1.jpg",
-            "./images/kanye-west-2.jpg",
-            "./images/kanye-west-3.jpg",
-            "./images/kanye-west-4.jpg",
-            "./images/kanye-west-5.jpg",
-            "./images/kanye-west-6.jpg"
+            "/images/kanye-west-1.jpg",
+            "/images/kanye-west-2.jpg",
+            "/images/kanye-west-3.jpg",
+            "/images/kanye-west-4.jpg",
+            "/images/kanye-west-5.jpg",
+            "/images/kanye-west-6.jpg"
           ]
         },
         {
@@ -1222,12 +1222,12 @@
             "Link": "https://www.youtube.com/watch?v=E2WExo0w70c&ab_channel=VideoPedia"
           },
           "Gallery": [
-            "./images/taylor-swift-1.jpg",
-            "./images/taylor-swift-2.jpg",
-            "./images/taylor-swift-3.jpg",
-            "./images/taylor-swift-4.jpg",
-            "./images/taylor-swift-5.jpg",
-            "./images/taylor-swift-6.jpg"
+            "/images/taylor-swift-1.jpg",
+            "/images/taylor-swift-2.jpg",
+            "/images/taylor-swift-3.jpg",
+            "/images/taylor-swift-4.jpg",
+            "/images/taylor-swift-5.jpg",
+            "/images/taylor-swift-6.jpg"
           ]
         },
         {
@@ -1266,12 +1266,12 @@
             "Link": "https://www.youtube.com/watch?v=P-4UeVKzhMw&ab_channel=Biography"
           },
           "Gallery": [
-            "./images/beyonce-1.jpg",
-            "./images/beyonce-2.jpg",
-            "./images/beyonce-3.jpg",
-            "./images/beyonce-4.jpg",
-            "./images/beyonce-5.jpg",
-            "./images/beyonce-6.jpg"
+            "/images/beyonce-1.jpg",
+            "/images/beyonce-2.jpg",
+            "/images/beyonce-3.jpg",
+            "/images/beyonce-4.jpg",
+            "/images/beyonce-5.jpg",
+            "/images/beyonce-6.jpg"
           ]
         },
         {
@@ -1310,12 +1310,12 @@
             "Link": "https://www.youtube.com/watch?v=PmQlNQlLCYM&ab_channel=WatchMojo.com"
           },
           "Gallery": [
-            "./images/skrillex-1.jpg",
-            "./images/skrillex-2.jpg",
-            "./images/skrillex-3.jpg",
-            "./images/skrillex-4.jpg",
-            "./images/skrillex-5.jpg",
-            "./images/skrillex-6.jpg"
+            "/images/skrillex-1.jpg",
+            "/images/skrillex-2.jpg",
+            "/images/skrillex-3.jpg",
+            "/images/skrillex-4.jpg",
+            "/images/skrillex-5.jpg",
+            "/images/skrillex-6.jpg"
           ]
         },
         {
@@ -1355,12 +1355,12 @@
             "Link": "https://www.youtube.com/watch?v=NkRkuI0ZgX0&ab_channel=OWSLA"
           },
           "Gallery": [
-            "./images/salvatore-ganacci-1.jpg",
-            "./images/salvatore-ganacci-2.jpg",
-            "./images/salvatore-ganacci-3.jpg",
-            "./images/salvatore-ganacci-4.jpg",
-            "./images/salvatore-ganacci-5.jpg",
-            "./images/salvatore-ganacci-6.jpg"
+            "/images/salvatore-ganacci-1.jpg",
+            "/images/salvatore-ganacci-2.jpg",
+            "/images/salvatore-ganacci-3.jpg",
+            "/images/salvatore-ganacci-4.jpg",
+            "/images/salvatore-ganacci-5.jpg",
+            "/images/salvatore-ganacci-6.jpg"
           ]
         },
         {
@@ -1407,16 +1407,16 @@
             "Link": "https://www.youtube.com/watch?v=33P83SpibHk&ab_channel=Volksgeist"
           },
           "Gallery": [
-            "./images/abel-tesfaye-1.jpg",
-            "./images/abel-tesfaye-2.jpg",
-            "./images/abel-tesfaye-3.jpg",
-            "./images/abel-tesfaye-4.jpg",
-            "./images/abel-tesfaye-5.jpg",
-            "./images/abel-tesfaye-6.jpg",
-            "./images/abel-tesfaye-7.jpg",
-            "./images/abel-tesfaye-8.jpg",
-            "./images/abel-tesfaye-9.jpg",
-            "./images/abel-tesfaye-10.jpg"
+            "/images/abel-tesfaye-1.jpg",
+            "/images/abel-tesfaye-2.jpg",
+            "/images/abel-tesfaye-3.jpg",
+            "/images/abel-tesfaye-4.jpg",
+            "/images/abel-tesfaye-5.jpg",
+            "/images/abel-tesfaye-6.jpg",
+            "/images/abel-tesfaye-7.jpg",
+            "/images/abel-tesfaye-8.jpg",
+            "/images/abel-tesfaye-9.jpg",
+            "/images/abel-tesfaye-10.jpg"
           ]
         
         }
